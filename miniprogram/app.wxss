@@ -25,3 +25,15 @@ page {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+button.btn {
+  border: 1px solid #108ee9;
+  color: #108ee9;
+  font-size: 24rpx;
+  display: flex;
+  height: unset;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8rpx;
+  padding: 8rpx 16rpx;
+}
