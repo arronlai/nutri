@@ -88,11 +88,14 @@ page {
   font-size: 24rpx;
   margin-top: 25%;
 }
+.form-container.completed {
+  background-color: #f6ffed;
+}
 .form-container .form-item {
   display: flex;
   align-items: center;
   padding: 0 25rpx;
-  height: 60rpx;
+  height: 82rpx;
 }
 .form-container .form-item > view {
   margin-right: 10rpx;
@@ -150,17 +153,21 @@ page {
   color: #87d068;
   border-color: #87d068;
 }
+.form-container .form-item .btn.complete-btn.completed {
+  color: #999;
+  border-color: #999;
+}
 .form-container .form-item .btn.delete-btn {
   color: #ff4d4f;
   border-color: #ff4d4f;
   margin: 0;
 }
-.form-container .action-btn-wrapper {
+.action-btn-wrapper {
   display: flex;
   justify-content: center;
   padding: 20rpx 0;
 }
-.form-container .action-btn-wrapper .btn {
+.action-btn-wrapper .btn {
   width: 150rpx;
   height: 40rpx;
   border-radius: 20rpx;
@@ -169,6 +176,6 @@ page {
   color: rgba(0, 0, 0, 0.88);
   border-color: rgba(217, 217, 217);
 }
-.form-container .action-btn-wrapper .btn.add-btn {
+.action-btn-wrapper .btn.add-btn {
   margin-right: 15rpx;
 }

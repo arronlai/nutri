@@ -25,10 +25,10 @@
 		</view>
 		<view wx:if="{{power.showItem}}">
 			<view
-			 class="form-container"
 			 wx:key="title"
 			 wx:for="{{power.item}}"
 			 wx:for-index="itemIdx"
+			 class="{{item.completed ? 'completed' : ''}} form-container"
 			>
 				<view class="line" />
 				<view class="form-item">
@@ -50,13 +50,31 @@
 						<input type="number" bindinput="inputCount" data-index="{{index}}" />
 						<text class="unit">次</text>
 					</view>
-					<button bindtap="completeSet" data-index="{{index}}" class="{{item.completed ? 'completed' : ''}} complete-btn btn">{{item.completed ? '已完成' : '完成'}}</button>
-					<button bindtap="deleteSet" data-index="{{index}}" class="delete-btn btn">删除</button>
+					<button
+					 bindtap="toggleCompleteSet"
+					 data-index="{{index}}"
+					 data-item_idx="{{itemIdx}}"
+					 class="{{item.completed ? 'completed' : ''}} complete-btn btn"
+					>{{item.completed ? '重做' : '完成'}}
+					</button>
+					<button
+					 bindtap="deleteSet"
+					 data-index="{{index}}"
+					 data-item_idx="{{itemIdx}}"
+					 class="delete-btn btn"
+					>删除
+					</button>
 				</view>
-				<view class="action-btn-wrapper">
-					<button bindtap="addSet" data-index="{{index}}" class="add-btn btn">加一组</button>
-					<button bindtap="showMoveDetail" data-index="{{index}}" class="learn-btn btn">学动作</button>
-				</view>
+			</view>
+			<view class="action-btn-wrapper">
+				<button
+				 bindtap="addSet"
+				 data-index="{{index}}"
+				 class="add-btn btn"
+				 data-index="{{index}}"
+				>加一组
+				</button>
+				<button bindtap="showMoveDetail" data-index="{{index}}" class="learn-btn btn">学动作</button>
 			</view>
 		</view>
 	</view>

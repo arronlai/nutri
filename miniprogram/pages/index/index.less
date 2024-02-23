@@ -106,11 +106,14 @@ page {
 }
 
 .form-container {
+  &.completed {
+    background-color: rgb(246, 255, 237);
+  }
   .form-item {
     display: flex;
     align-items: center;
     padding: 0 25rpx;
-    height: 60rpx;
+    height: 82rpx;
     > view {
       margin-right: 10rpx;
     }
@@ -167,6 +170,11 @@ page {
         margin-right: 10rpx;
         color: #87d068;
         border-color: #87d068;
+
+        &.completed {
+          color: #999;
+          border-color: #999;
+        }
       }
       &.delete-btn {
         color: rgb(255, 77, 79);
@@ -175,29 +183,29 @@ page {
       }
     }
   }
+}
 
-  .action-btn-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 20rpx 0;
-    .btn {
-      width: 150rpx;
-      height: 40rpx;
-      border-radius: 20rpx;
-      margin: 0;
-      background-color: rgb(250, 250, 250);
-      color: rgba(0, 0, 0, 0.88);
-      border-color: rgba(217, 217, 217);
+.action-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx 0;
+  .btn {
+    width: 150rpx;
+    height: 40rpx;
+    border-radius: 20rpx;
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    color: rgba(0, 0, 0, 0.88);
+    border-color: rgba(217, 217, 217);
 
-      &.add-btn { 
-        // color: #87d068;
-        // border-color: #87d068;
-        // background-color: rgb(230 255 251);
-        margin-right: 15rpx;
-      }
-      &.learn-btn {
-        // background-color: rgb(230 244 255);
-      }
+    &.add-btn {
+      // color: #87d068;
+      // border-color: #87d068;
+      // background-color: rgb(230 255 251);
+      margin-right: 15rpx;
+    }
+    &.learn-btn {
+      // background-color: rgb(230 244 255);
     }
   }
 }
