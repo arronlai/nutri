@@ -1,0 +1,12 @@
+[
+  {
+    "key": "walking-on-stepmill",
+    "label": "登山机",
+    "illustration": "https://www.jianshenup.com/wp-content/uploads/2022/07/Walking-on-Stepmill.2022-07-09-16_44_27.gif",
+    "desc": "",
+    "muscle": "aerobic",
+    "muscleLabel": "有氧",
+    "equipment": "stepmill",
+    "equipmentLabel": "登山机"
+  }
+]
