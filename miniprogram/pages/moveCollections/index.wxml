@@ -25,10 +25,11 @@
 								<image src="https://i0.imgs.ovh/2024/02/29/717JA.gif" />
 							</view>
 						</view> -->
-							<van-checkbox-group value="{{ result }}" bind:change="onChange">
+							<van-checkbox-group value="{{ selectedMoves }}" bind:change="onChange">
 								<van-cell-group
 								 wx:for="{{ item.equipments }}"
 								 wx:for-item="equipment"
+								 wx:for-index="equipmentIdx"
 								 wx:key="{{equipment.key}}"
 								 id="{{ equipment.key }}"
 								 title="{{equipment.label}}"
@@ -39,6 +40,7 @@
 									 wx:key="{{move.key}}"
 									 clickable
 									 data-index="{{ index }}"
+									 data-equipment_idx="{{ equipmentIdx }}"
 									 bind:click="toggle"
 									>
 										<view class="move-wrapper">
@@ -46,7 +48,7 @@
 												<image src="{{move.illustration}}" />
 											</view>
 											<view class="move-title">{{ move.label }}</view>
-											<van-checkbox catch:tap="noop" class="checkboxes-{{ index }}" name="{{ move.label }}" />
+											<van-checkbox catch:tap="noop" class="checkboxes-{{ equipmentIdx }}-{{ index }}" name="{{ move.key }}" />
 										</view>
 									</van-cell>
 								</van-cell-group>
