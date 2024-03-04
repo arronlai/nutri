@@ -1,0 +1,61 @@
+<view class="move-collection-page">
+	<view style="height: {{pageContainerHeight}}px;">
+		<van-tabs swipeable active="{{selectedMuscle}}">
+			<van-tab wx:for="{{ moves }}" wx:key="{{item.muscle}}" title="{{ item.muscleLabel }}">
+				<view class="equipment-wrapper">
+					<van-sidebar active-key="{{ selectedEquipment }}" bind:change="onChangeSidebar">
+						<van-sidebar-item
+						 wx:for="{{ item.equipments }}"
+						 wx:for-item="equipment"
+						 wx:key="{{equipment.key}}"
+						 title="{{ equipment.label }}"
+						/>
+					</van-sidebar>
+					<view style="flex: 1;">
+						<scroll-view scroll-y style="height: {{pageContainerHeight-44}}px;">
+							<!-- <view
+						 wx:for="{{ item.equipments }}"
+						 wx:for-item="equipment"
+						 wx:key="{{equipment.key}}"
+						 id="{{ equipment.key }}"
+						>
+							<view class="equipment-title">{{ equipment.label }}</view>
+							<view wx:for="{{ equipment.moves }}" wx:for-item="move" wx:key="{{move.key}}">
+								<text>{{ move.label }}</text>
+								<image src="https://i0.imgs.ovh/2024/02/29/717JA.gif" />
+							</view>
+						</view> -->
+							<van-checkbox-group value="{{ result }}" bind:change="onChange">
+								<van-cell-group
+								 wx:for="{{ item.equipments }}"
+								 wx:for-item="equipment"
+								 wx:key="{{equipment.key}}"
+								 id="{{ equipment.key }}"
+								 title="{{equipment.label}}"
+								>
+									<van-cell
+									 wx:for="{{ equipment.moves }}"
+									 wx:for-item="move"
+									 wx:key="{{move.key}}"
+									 clickable
+									 data-index="{{ index }}"
+									 bind:click="toggle"
+									>
+										<view class="move-wrapper">
+											<view class="move-illustration">
+												<image src="{{move.illustration}}" />
+											</view>
+											<view class="move-title">{{ move.label }}</view>
+											<van-checkbox catch:tap="noop" class="checkboxes-{{ index }}" name="{{ move.label }}" />
+										</view>
+									</van-cell>
+								</van-cell-group>
+							</van-checkbox-group>
+						</scroll-view>
+					</view>
+				</view>
+			</van-tab>
+		</van-tabs>
+	</view>
+</view>
+

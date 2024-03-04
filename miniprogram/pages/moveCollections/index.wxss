@@ -1,0 +1,24 @@
+.move-collection-page {
+  display: flex;
+  flex-direction: row;
+}
+.move-collection-page .equipment-wrapper {
+  display: flex;
+  height: 100%;
+}
+.move-collection-page .move-wrapper {
+  display: flex;
+  align-items: center;
+}
+.move-collection-page .move-wrapper .move-illustration {
+  width: 60rpx;
+  height: 60rpx;
+}
+.move-collection-page .move-wrapper .move-illustration image {
+  width: 100%;
+  height: 100%;
+}
+.move-collection-page .move-wrapper van-checkbox {
+  margin-left: auto;
+  margin-right: 20rpx;
+}
