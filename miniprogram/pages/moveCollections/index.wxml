@@ -1,9 +1,9 @@
 <view class="move-collection-page">
 	<view style="height: {{pageContainerHeight}}px;">
-		<van-tabs swipeable active="{{selectedMuscle}}">
+		<van-tabs swipeable active="{{currentMuscle}}" bind:change="onMuscleTabChange">
 			<van-tab wx:for="{{ moves }}" wx:key="muscle" title="{{ item.muscleLabel }}">
 				<view class="equipment-wrapper">
-					<van-sidebar active-key="{{ selectedEquipment }}" bind:change="onChangeSidebar">
+					<van-sidebar active-key="{{ currentEquipment }}" bind:change="onChangeSidebar">
 						<van-sidebar-item
 						 wx:for="{{ item.equipments }}"
 						 wx:for-item="equipment"
@@ -12,26 +12,19 @@
 						/>
 					</van-sidebar>
 					<view style="flex: 1;">
-						<scroll-view scroll-y style="height: {{pageContainerHeight-44}}px;">
-							<!-- <view
-						 wx:for="{{ item.equipments }}"
-						 wx:for-item="equipment"
-						 wx:key="{{equipment.key}}"
-						 id="{{ equipment.key }}"
+						<scroll-view
+						 scroll-y
+						 style="height: {{pageContainerHeight-44-44}}px;"
+						 bindscroll="onScroll"
+						 scroll-into-view="{{scrollIntoView}}"
 						>
-							<view class="equipment-title">{{ equipment.label }}</view>
-							<view wx:for="{{ equipment.moves }}" wx:for-item="move" wx:key="{{move.key}}">
-								<text>{{ move.label }}</text>
-								<image src="https://i0.imgs.ovh/2024/02/29/717JA.gif" />
-							</view>
-						</view> -->
 							<van-checkbox-group value="{{ selectedMoves }}" bind:change="onChange">
 								<van-cell-group
 								 wx:for="{{ item.equipments }}"
 								 wx:for-item="equipment"
 								 wx:for-index="equipmentIdx"
 								 wx:key="key"
-								 id="{{ equipment.key }}"
+								 id="equipment-{{item.muscle}}-{{equipment.key}}"
 								 title="{{equipment.label}}"
 								>
 									<van-cell
@@ -46,7 +39,7 @@
 									>
 										<view class="move-wrapper">
 											<view class="move-illustration">
-												<image src="{{move.illustration}}.th.gif" />
+												<image wx:if="{{move.illustration}}" src="{{move.illustration}}.th{{move.illustrationSuffix}}" />
 											</view>
 											<view class="move-title">{{ move.label }}</view>
 											<van-checkbox catch:tap="noop" class="checkboxes-{{ move.key }}-{{ equipmentIdx }}-{{ index }}" name="{{ move.key }}" />
@@ -56,6 +49,12 @@
 							</van-checkbox-group>
 						</scroll-view>
 					</view>
+				</view>
+				<view class="action-btn-wrapper">
+					<van-button type="primary" disabled="{{selectedMoves.length > 0}}" bindtap="submit">确 认
+					</van-button>
+					<van-button type="default" bindtap="cancel">取 消</van-button>
+
 				</view>
 			</van-tab>
 		</van-tabs>

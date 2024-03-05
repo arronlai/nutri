@@ -10,6 +10,7 @@ const moves = [
           {
             key: 'barbell-bench-press',
             label: '杠铃平板卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Dg4s',
             desc: '',
             muscle: 'chest',
@@ -20,6 +21,7 @@ const moves = [
           {
             key: 'incline-barbell-bench-press',
             label: '上斜杠铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D4Qm',
             desc: '',
             muscle: 'chest',
@@ -36,6 +38,7 @@ const moves = [
           {
             key: 'dumbbell-press-1',
             label: '哑铃平板卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Dj3t',
             desc: '',
             muscle: 'chest',
@@ -46,6 +49,7 @@ const moves = [
           {
             key: 'dumbbell-fly',
             label: '仰卧哑铃飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D5EN',
             desc: '',
             muscle: 'chest',
@@ -56,6 +60,7 @@ const moves = [
           {
             key: 'reverse-grip-dumbbell-bench-press',
             label: '反握哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DdlR',
             desc: '',
             muscle: 'chest',
@@ -66,6 +71,7 @@ const moves = [
           {
             key: 'incline-dumbbell-fly',
             label: '上斜哑铃飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D8bp',
             desc: '',
             muscle: 'chest',
@@ -76,6 +82,7 @@ const moves = [
           {
             key: 'incline-dumbbell-press',
             label: '上斜哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DD4T',
             desc: '',
             muscle: 'chest',
@@ -86,6 +93,7 @@ const moves = [
           {
             key: 'decline-dumbbell-press',
             label: '下斜哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DTXu',
             desc: '',
             muscle: 'chest',
@@ -96,6 +104,7 @@ const moves = [
           {
             key: 'single-dumbbell-close-grip-press',
             label: '窄握哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DGvK',
             desc: '',
             muscle: 'chest',
@@ -106,6 +115,7 @@ const moves = [
           {
             key: 'dumbbell-pullover',
             label: '直臂哑铃上拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EPnV',
             desc: '',
             muscle: 'chest',
@@ -116,6 +126,7 @@ const moves = [
           {
             key: 'close-grip-incline-dumbbell-press',
             label: '夹胸哑铃上斜推胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EVbJ',
             desc: '',
             muscle: 'chest',
@@ -126,6 +137,7 @@ const moves = [
           {
             key: 'close-grip-dumbbell-press',
             label: '窄距哑铃推胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EL5W',
             desc: '',
             muscle: 'chest',
@@ -136,6 +148,7 @@ const moves = [
           {
             key: 'alternate-dumbbell-bench-press',
             label: '哑铃交替卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ErXv',
             desc: '',
             muscle: 'chest',
@@ -152,6 +165,7 @@ const moves = [
           {
             key: 'cable-crossover',
             label: '绳索夹胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E2Be',
             desc: '',
             muscle: 'chest',
@@ -162,6 +176,7 @@ const moves = [
           {
             key: 'cable-upper-chest-crossovers',
             label: '上胸绳索夹胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EFJ3',
             desc: '',
             muscle: 'chest',
@@ -172,6 +187,7 @@ const moves = [
           {
             key: 'high-cable-crossover',
             label: '下胸绳索夹胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EAv9',
             desc: '',
             muscle: 'chest',
@@ -182,6 +198,7 @@ const moves = [
           {
             key: 'decline-cable-fly',
             label: '下斜绳索飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ElfO',
             desc: '',
             muscle: 'chest',
@@ -192,6 +209,7 @@ const moves = [
           {
             key: 'single-arm-cable-crossover',
             label: '单臂绳索夹胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EnRH',
             desc: '',
             muscle: 'chest',
@@ -208,6 +226,7 @@ const moves = [
           {
             key: 'smith-machine-incline-bench-press',
             label: '史密斯上斜卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D1XX',
             desc: '',
             muscle: 'chest',
@@ -218,6 +237,7 @@ const moves = [
           {
             key: 'smith-machine-decline-bench-press',
             label: '史密斯下斜卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DUvC',
             desc: '',
             muscle: 'chest',
@@ -228,6 +248,7 @@ const moves = [
           {
             key: 'smith-machine-bench-press',
             label: '史密斯平板卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Dz10',
             desc: '',
             muscle: 'chest',
@@ -238,6 +259,7 @@ const moves = [
           {
             key: 'smith-machine-hex-press',
             label: '并握史密斯卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DqBl',
             desc: '',
             muscle: 'chest',
@@ -248,27 +270,29 @@ const moves = [
         ],
       },
       {
-        key: 'hammer-strength-machine"',
+        key: 'hammer-strength-machine',
         label: '悍马机',
         moves: [
           {
             key: 'lever-chest-press',
             label: '悍马机推胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DvQj',
             desc: '',
             muscle: 'chest',
             muscleLabel: '胸',
-            equipment: 'hammer-strength-machine"',
+            equipment: 'hammer-strength-machine',
             equipmentLabel: '悍马机',
           },
           {
             key: 'lever-incline-chest-press',
             label: '上斜悍马机推胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DyTI',
             desc: '',
             muscle: 'chest',
             muscleLabel: '胸',
-            equipment: 'hammer-strength-machine"',
+            equipment: 'hammer-strength-machine',
             equipmentLabel: '悍马机',
           },
         ],
@@ -280,6 +304,7 @@ const moves = [
           {
             key: 'pec-deck-fly',
             label: '蝴蝶机夹胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Daf2',
             desc: '',
             muscle: 'chest',
@@ -296,6 +321,7 @@ const moves = [
           {
             key: 'weighted-push-up',
             label: '负重俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DJ0U',
             desc: '',
             muscle: 'chest',
@@ -306,6 +332,7 @@ const moves = [
           {
             key: 'chest-dips',
             label: '臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EHTD',
             desc: '',
             muscle: 'chest',
@@ -316,6 +343,7 @@ const moves = [
           {
             key: 'incline-push-up',
             label: '上斜俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Epno',
             desc: '',
             muscle: 'chest',
@@ -326,6 +354,7 @@ const moves = [
           {
             key: 'pike-push-up',
             label: '拆刀俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EwoA',
             desc: '',
             muscle: 'chest',
@@ -336,6 +365,7 @@ const moves = [
           {
             key: 'kneeling-push-up',
             label: '跪姿俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E355',
             desc: '',
             muscle: 'chest',
@@ -346,6 +376,7 @@ const moves = [
           {
             key: 'stability-ball-push-up',
             label: '垫球俯卧撑上斜',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Emrs',
             desc: '',
             muscle: 'chest',
@@ -356,6 +387,7 @@ const moves = [
           {
             key: 'stability-ball-decline-push-ups',
             label: '垫球下斜俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E6IX',
             desc: '',
             muscle: 'chest',
@@ -366,6 +398,7 @@ const moves = [
           {
             key: 'clap-push-up',
             label: '击掌俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EWJU',
             desc: '',
             muscle: 'chest',
@@ -376,6 +409,7 @@ const moves = [
           {
             key: 'reverse-push-up',
             label: '反手俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Eky0',
             desc: '',
             muscle: 'chest',
@@ -386,6 +420,7 @@ const moves = [
           {
             key: 'knee-push-up',
             label: '跪姿钻石俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EBmC',
             desc: '',
             muscle: 'chest',
@@ -402,6 +437,7 @@ const moves = [
           {
             key: 'svend-press',
             label: '斯万推胸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D91d',
             desc: '',
             muscle: 'chest',
@@ -418,6 +454,7 @@ const moves = [
           {
             key: 'standing-one-arm-chest-stretch',
             label: '胸部放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EIRt',
             desc: '',
             muscle: 'chest',
@@ -428,6 +465,7 @@ const moves = [
           {
             key: 'back-pec-stretch',
             label: '胸部放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ehqm',
             desc: '',
             muscle: 'chest',
@@ -438,6 +476,7 @@ const moves = [
           {
             key: 'above-head-chest-stretch',
             label: '胸部放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ExnN',
             desc: '',
             muscle: 'chest',
@@ -448,6 +487,7 @@ const moves = [
           {
             key: 'seated-chest-stretch',
             label: '胸部放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EKoR',
             desc: '',
             muscle: 'chest',
@@ -458,6 +498,7 @@ const moves = [
           {
             key: 'shoulder-stretch-behind-back',
             label: '胸部放松/拉伸6',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EbYp',
             desc: '',
             muscle: 'chest',
@@ -468,6 +509,7 @@ const moves = [
           {
             key: 'reverse-shoulder-stretch',
             label: '胸部放松/拉伸7',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ESrT',
             desc: '',
             muscle: 'chest',
@@ -478,6 +520,7 @@ const moves = [
           {
             key: 'roll-front-shoulder-and-chest-lying-on-floor',
             label: '放松/拉伸方式1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EuIu',
             desc: '',
             muscle: 'chest',
@@ -488,6 +531,7 @@ const moves = [
           {
             key: 'stretch-chest-stretch',
             label: '放松/拉伸放松2',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'chest',
@@ -510,6 +554,7 @@ const moves = [
           {
             key: 'reverse-grip-barbell-row',
             label: '反握杠铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EyCU',
             desc: '',
             muscle: 'back',
@@ -520,6 +565,7 @@ const moves = [
           {
             key: 'one-arm-landmine-row',
             label: '单臂地雷杆划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TPeC',
             desc: '',
             muscle: 'back',
@@ -530,6 +576,7 @@ const moves = [
           {
             key: 'one-arm-barbell-row-',
             label: '单臂杠铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TXMm',
             desc: '',
             muscle: 'back',
@@ -540,6 +587,7 @@ const moves = [
           {
             key: 'incline-barbell-row',
             label: '上斜杠铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TmuI',
             desc: '',
             muscle: 'back',
@@ -550,6 +598,7 @@ const moves = [
           {
             key: 'barbell-romanian-deadlift',
             label: '杠铃罗马尼亚硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TKGO',
             desc: '',
             muscle: 'back',
@@ -560,6 +609,7 @@ const moves = [
           {
             key: 'barbell-sumo-deadlift',
             label: '杠铃相扑硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Tu8o',
             desc: '',
             muscle: 'back',
@@ -570,6 +620,7 @@ const moves = [
           {
             key: 'stiff-leg-deadlift',
             label: '直腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TOAA',
             desc: '',
             muscle: 'back',
@@ -580,6 +631,7 @@ const moves = [
           {
             key: 'barbell-good-morning',
             label: '杠铃早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ttg0',
             desc: '',
             muscle: 'back',
@@ -596,6 +648,7 @@ const moves = [
           {
             key: 'incline-reverse-grip-dumbbell-row',
             label: '反握上斜哑铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TM6d',
             desc: '',
             muscle: 'back',
@@ -606,6 +659,7 @@ const moves = [
           {
             key: 'incline-dumbbell-hammer-row',
             label: '上斜俯身锤式划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TpeK',
             desc: '',
             muscle: 'back',
@@ -616,6 +670,7 @@ const moves = [
           {
             key: 'incline-dumbbell-row',
             label: '上斜正握哑铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TwG2',
             desc: '',
             muscle: 'back',
@@ -626,6 +681,7 @@ const moves = [
           {
             key: 'dumbbell-row',
             label: '单臂哑铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TkFJ',
             desc: '',
             muscle: 'back',
@@ -636,6 +692,7 @@ const moves = [
           {
             key: 'dumbbell-straight-leg-deadlift',
             label: '哑铃直腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TDkl',
             desc: '',
             muscle: 'back',
@@ -652,6 +709,7 @@ const moves = [
           {
             key: 'seated-cable-row',
             label: '坐姿划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EOyd',
             desc: '',
             muscle: 'back',
@@ -662,6 +720,7 @@ const moves = [
           {
             key: 'barbell-bent-over-row',
             label: '俯身杠铃划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ERmK',
             desc: '',
             muscle: 'back',
@@ -672,6 +731,7 @@ const moves = [
           {
             key: 'v-bar-lat-pulldown',
             label: 'V把高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ecc2',
             desc: '',
             muscle: 'back',
@@ -682,6 +742,7 @@ const moves = [
           {
             key: 't-bar-row',
             label: 'T杠划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Eeqj',
             desc: '',
             muscle: 'back',
@@ -692,6 +753,7 @@ const moves = [
           {
             key: 'seated-cable-rope-row',
             label: '坐姿绳索划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E1SV',
             desc: '',
             muscle: 'back',
@@ -702,6 +764,7 @@ const moves = [
           {
             key: 'rope-straight-arm-pulldown',
             label: '直臂绳索下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EJYJ',
             desc: '',
             muscle: 'back',
@@ -712,6 +775,7 @@ const moves = [
           {
             key: 'lat-pulldown',
             label: '高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EYm9',
             desc: '',
             muscle: 'back',
@@ -722,6 +786,7 @@ const moves = [
           {
             key: 'close-grip-lat-pulldown',
             label: '窄握高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EdcO',
             desc: '',
             muscle: 'back',
@@ -732,6 +797,7 @@ const moves = [
           {
             key: 'straight_back-back-standing-row',
             label: '站姿绳索划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E89H',
             desc: '',
             muscle: 'back',
@@ -742,6 +808,7 @@ const moves = [
           {
             key: 'single-arm-twisting-seated-cable-row',
             label: '坐姿单臂绳索划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EEHD',
             desc: '',
             muscle: 'back',
@@ -752,6 +819,7 @@ const moves = [
           {
             key: 'lever-cable-rear-pulldown',
             label: '颈后高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ETSo',
             desc: '',
             muscle: 'back',
@@ -762,6 +830,7 @@ const moves = [
           {
             key: 'table-inverted-row',
             label: '桌子反向划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EqdA',
             desc: '',
             muscle: 'back',
@@ -772,6 +841,7 @@ const moves = [
           {
             key: 'kneeling-single-arm-high-pulley-row',
             label: '跪姿单臂高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T2dR',
             desc: '',
             muscle: 'back',
@@ -782,6 +852,7 @@ const moves = [
           {
             key: 'kneeling-pulldown',
             label: '跪姿下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TAFp',
             desc: '',
             muscle: 'back',
@@ -792,6 +863,7 @@ const moves = [
           {
             key: 'kneeling-high-pulley-row',
             label: '跪姿高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TZhT',
             desc: '',
             muscle: 'back',
@@ -802,6 +874,7 @@ const moves = [
           {
             key: 'incline-cable-row',
             label: '上斜绳索划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TfMj',
             desc: '',
             muscle: 'back',
@@ -812,6 +885,7 @@ const moves = [
           {
             key: 'full-range-of-motion-lat-pulldown',
             label: '背阔肌全程下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T68V',
             desc: '',
             muscle: 'back',
@@ -822,6 +896,7 @@ const moves = [
           {
             key: 'double-cable-neutral-grip-lat-pulldown-on-floor',
             label: '跪姿高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T0sW',
             desc: '',
             muscle: 'back',
@@ -832,6 +907,7 @@ const moves = [
           {
             key: 'close-grip-cable-row',
             label: '坐姿V把划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TBUv',
             desc: '',
             muscle: 'back',
@@ -842,6 +918,7 @@ const moves = [
           {
             key: 'cable-rear-pulldown',
             label: '颈后高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ThPe',
             desc: '',
             muscle: 'back',
@@ -852,6 +929,7 @@ const moves = [
           {
             key: 'cable-one-arm-lat-pulldown',
             label: '单臂高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TsW3',
             desc: '',
             muscle: 'back',
@@ -862,6 +940,7 @@ const moves = [
           {
             key: 'cable-bent-over-row',
             label: '绳索俯身划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Txe9',
             desc: '',
             muscle: 'back',
@@ -872,6 +951,7 @@ const moves = [
           {
             key: 'cable-pull-through',
             label: '绳索早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Tzpt',
             desc: '',
             muscle: 'back',
@@ -888,6 +968,7 @@ const moves = [
           {
             key: 'smith-machine-bent-over-row',
             label: '史密斯俯身划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EtHI',
             desc: '',
             muscle: 'back',
@@ -898,6 +979,7 @@ const moves = [
           {
             key: 'smith-machine-good-morning',
             label: '史密斯早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T1NC',
             desc: '',
             muscle: 'back',
@@ -914,6 +996,7 @@ const moves = [
           {
             key: 'seated-row-machine',
             label: '坐姿器械划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ejze',
             desc: '',
             muscle: 'back',
@@ -924,6 +1007,7 @@ const moves = [
           {
             key: 'lever-t-bar-row',
             label: 'T型划船器',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E5C3',
             desc: '',
             muscle: 'back',
@@ -934,6 +1018,7 @@ const moves = [
           {
             key: 'plate-loaded-seated-row',
             label: '坐姿划船器',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TC60',
             desc: '',
             muscle: 'back',
@@ -950,6 +1035,7 @@ const moves = [
           {
             key: 'pull-up',
             label: '引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7E7zl',
             desc: '',
             muscle: 'back',
@@ -960,6 +1046,7 @@ const moves = [
           {
             key: 'reverse-grip-pull-up',
             label: '反握引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EU2W',
             desc: '',
             muscle: 'back',
@@ -970,6 +1057,7 @@ const moves = [
           {
             key: 'reverse-lat-pulldown',
             label: '反握高位下拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EiIv',
             desc: '',
             muscle: 'back',
@@ -980,6 +1068,7 @@ const moves = [
           {
             key: 'weighted-pull-up',
             label: '负重引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EG25',
             desc: '',
             muscle: 'back',
@@ -990,6 +1079,7 @@ const moves = [
           {
             key: 'ring-inverted-row',
             label: '绳索反向划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7ENhs',
             desc: '',
             muscle: 'back',
@@ -1000,6 +1090,7 @@ const moves = [
           {
             key: 'rope-climb',
             label: '爬绳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EaUX',
             desc: '',
             muscle: 'back',
@@ -1010,6 +1101,7 @@ const moves = [
           {
             key: 'one-arm-chin-up',
             label: '单臂引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TV9t',
             desc: '',
             muscle: 'back',
@@ -1020,6 +1112,7 @@ const moves = [
           {
             key: 'muscle-up-vertical-bar',
             label: '双力臂',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TrSN',
             desc: '',
             muscle: 'back',
@@ -1030,6 +1123,7 @@ const moves = [
           {
             key: 'inverted-row',
             label: '反向划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7THPl',
             desc: '',
             muscle: 'back',
@@ -1040,6 +1134,7 @@ const moves = [
           {
             key: 'assisted-pull-up',
             label: '辅助引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TopH',
             desc: '',
             muscle: 'back',
@@ -1050,6 +1145,7 @@ const moves = [
           {
             key: 'behind-the-neck-pull-up',
             label: '颈后引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TSuD',
             desc: '',
             muscle: 'back',
@@ -1060,6 +1156,7 @@ const moves = [
           {
             key: 'hyperextension',
             label: '背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TQs5',
             desc: '',
             muscle: 'back',
@@ -1070,6 +1167,7 @@ const moves = [
           {
             key: 'twisting-hyperextension',
             label: '旋转背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TRis',
             desc: '',
             muscle: 'back',
@@ -1080,6 +1178,7 @@ const moves = [
           {
             key: 'flat-bench-hyperextension',
             label: '平板背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TeVX',
             desc: '',
             muscle: 'back',
@@ -1090,6 +1189,7 @@ const moves = [
           {
             key: 'weighted-back-extension',
             label: '负重背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TgWU',
             desc: '',
             muscle: 'back',
@@ -1100,6 +1200,7 @@ const moves = [
           {
             key: 'seated-back-extension',
             label: '坐姿背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ti8N',
             desc: '',
             muscle: 'back',
@@ -1110,6 +1211,7 @@ const moves = [
           {
             key: 'reverse-hyperextension-machine',
             label: '反向背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T4AR',
             desc: '',
             muscle: 'back',
@@ -1120,6 +1222,7 @@ const moves = [
           {
             key: 'reverse-hyperextensions',
             label: '平凳反向背屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T5xp',
             desc: '',
             muscle: 'back',
@@ -1130,6 +1233,7 @@ const moves = [
           {
             key: 'superman-exercise',
             label: '俯卧两头起',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TYiT',
             desc: '',
             muscle: 'back',
@@ -1146,6 +1250,7 @@ const moves = [
           {
             key: 'kettlebell-bent-over-row',
             label: '壶铃俯身划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TlUu',
             desc: '',
             muscle: 'back',
@@ -1156,6 +1261,7 @@ const moves = [
           {
             key: 'kettlebell-single-leg-deadlift',
             label: '壶铃单腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T8Vu',
             desc: '',
             muscle: 'back',
@@ -1172,6 +1278,7 @@ const moves = [
           {
             key: 'good-morning-with-resistance-band',
             label: '弹力带早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TU7m',
             desc: '',
             muscle: 'back',
@@ -1183,11 +1290,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'upper-back-stretch',
             label: '背部放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TEgd',
             desc: '',
             muscle: 'back',
@@ -1198,6 +1306,7 @@ const moves = [
           {
             key: 'stretch-with-towel',
             label: '背部放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TTNK',
             desc: '',
             muscle: 'back',
@@ -1208,6 +1317,7 @@ const moves = [
           {
             key: 'standing-reach-up-back-rotation-stretch',
             label: '背部放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T9w2',
             desc: '',
             muscle: 'back',
@@ -1218,6 +1328,7 @@ const moves = [
           {
             key: 'standing-side-bend-stretch',
             label: '背部放松/拉伸4',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TG7j',
             desc: '',
             muscle: 'back',
@@ -1228,6 +1339,7 @@ const moves = [
           {
             key: 'shoulder-stretch-behind-back_for-back',
             label: '背部放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EbYp',
             desc: '',
             muscle: 'back',
@@ -1238,6 +1350,7 @@ const moves = [
           {
             key: 'across-chest-shoulder-stretch',
             label: '背部放松/拉伸6',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TvZV',
             desc: '',
             muscle: 'back',
@@ -1248,6 +1361,7 @@ const moves = [
           {
             key: 'back-pec-stretch_for-back',
             label: '背部放松/拉伸7',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ehqm',
             desc: '',
             muscle: 'back',
@@ -1258,6 +1372,7 @@ const moves = [
           {
             key: 'roll-upper-back',
             label: '背部放松/拉伸放松1',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'back',
@@ -1268,6 +1383,7 @@ const moves = [
           {
             key: 'roll-rhomboids',
             label: '背部放松/拉伸放松2',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'back',
@@ -1278,6 +1394,7 @@ const moves = [
           {
             key: 'stretch-lat-stretch',
             label: '背部放松/拉伸放松3',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'back',
@@ -1300,6 +1417,7 @@ const moves = [
           {
             key: 'barbell-sumo-squat',
             label: '杠铃相扑蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLEMT',
             desc: '',
             muscle: 'thighs',
@@ -1310,6 +1428,7 @@ const moves = [
           {
             key: 'barbell-sumo-deadlift_for-thighs',
             label: '相扑硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Tu8o',
             desc: '',
             muscle: 'thighs',
@@ -1320,6 +1439,7 @@ const moves = [
           {
             key: 'barbell-step-up',
             label: '杠铃上阶',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLq8l',
             desc: '',
             muscle: 'thighs',
@@ -1330,6 +1450,7 @@ const moves = [
           {
             key: 'barbell-squat',
             label: '杠铃深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLGFd',
             desc: '',
             muscle: 'thighs',
@@ -1340,6 +1461,7 @@ const moves = [
           {
             key: 'barbell-romanian-deadlift_for-thighs',
             label: '罗马尼亚硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TKGO',
             desc: '',
             muscle: 'thighs',
@@ -1350,6 +1472,7 @@ const moves = [
           {
             key: 'barbell-lunge',
             label: '杠铃箭步蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLai2',
             desc: '',
             muscle: 'thighs',
@@ -1360,6 +1483,7 @@ const moves = [
           {
             key: 'barbell-lateral-lunge',
             label: '杠铃侧向箭步蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLyPj',
             desc: '',
             muscle: 'thighs',
@@ -1370,6 +1494,7 @@ const moves = [
           {
             key: 'barbell-good-morning_for-thighs',
             label: '杠铃早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ttg0',
             desc: '',
             muscle: 'thighs',
@@ -1380,6 +1505,7 @@ const moves = [
           {
             key: 'barbell-deadlift',
             label: '硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXPgV',
             desc: '',
             muscle: 'thighs',
@@ -1390,6 +1516,7 @@ const moves = [
           {
             key: 'barbell-clean-and-press-',
             label: '抓举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXVGJ',
             desc: '',
             muscle: 'thighs',
@@ -1400,6 +1527,7 @@ const moves = [
           {
             key: 'barbell-bench-front-squat',
             label: '杠铃颈前平板蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXXpW',
             desc: '',
             muscle: 'thighs',
@@ -1416,6 +1544,7 @@ const moves = [
           {
             key: 'lying-dumbbell-leg-curl',
             label: '俯卧哑铃腿弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL0CI',
             desc: '',
             muscle: 'thighs',
@@ -1426,6 +1555,7 @@ const moves = [
           {
             key: 'dumbbell-sumo-squat',
             label: '哑铃相扑蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLR6o',
             desc: '',
             muscle: 'thighs',
@@ -1436,6 +1566,7 @@ const moves = [
           {
             key: 'dumbbell-straight-leg-deadlift_for-thighs',
             label: '哑铃直腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TDkl',
             desc: '',
             muscle: 'thighs',
@@ -1446,6 +1577,7 @@ const moves = [
           {
             key: 'dumbbell-split-jump',
             label: '哑铃分腿跳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLe95',
             desc: '',
             muscle: 'thighs',
@@ -1456,6 +1588,7 @@ const moves = [
           {
             key: 'dumbbell-rear-lunge',
             label: '哑铃后弓步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLtMs',
             desc: '',
             muscle: 'thighs',
@@ -1466,6 +1599,7 @@ const moves = [
           {
             key: 'dumbbell-lunge',
             label: '哑铃箭步蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL1uX',
             desc: '',
             muscle: 'thighs',
@@ -1476,6 +1610,7 @@ const moves = [
           {
             key: 'dumbbell-lateral-step-up',
             label: '哑铃侧上阶',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLJdU',
             desc: '',
             muscle: 'thighs',
@@ -1486,6 +1621,7 @@ const moves = [
           {
             key: 'dumbbell-bulgarian-split-squat',
             label: '哑铃保加利亚分腿蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLUF0',
             desc: '',
             muscle: 'thighs',
@@ -1502,6 +1638,7 @@ const moves = [
           {
             key: 'standing-leg-raise',
             label: '绳索腿前摆',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLncp',
             desc: '',
             muscle: 'thighs',
@@ -1512,6 +1649,7 @@ const moves = [
           {
             key: 'cable-hips-adduction',
             label: '绳索腿内收',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLHqT',
             desc: '',
             muscle: 'thighs',
@@ -1522,6 +1660,7 @@ const moves = [
           {
             key: 'cable-squat',
             label: '绳索深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLpHu',
             desc: '',
             muscle: 'thighs',
@@ -1532,6 +1671,7 @@ const moves = [
           {
             key: 'cable-front-squat',
             label: '绳索颈前蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLjUt',
             desc: '',
             muscle: 'thighs',
@@ -1542,6 +1682,7 @@ const moves = [
           {
             key: 'cable-forward-lunge',
             label: '绳索前跨弓箭步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL5Pm',
             desc: '',
             muscle: 'thighs',
@@ -1558,6 +1699,7 @@ const moves = [
           {
             key: 'smith-machine-good-morning_for-thighs',
             label: '史密斯早安式',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T1NC',
             desc: '',
             muscle: 'thighs',
@@ -1574,6 +1716,7 @@ const moves = [
           {
             key: 'leg-curl',
             label: '俯卧腿弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLPHX',
             desc: '',
             muscle: 'thighs',
@@ -1584,6 +1727,7 @@ const moves = [
           {
             key: 'leg-press',
             label: '倒蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLVoU',
             desc: '',
             muscle: 'thighs',
@@ -1594,6 +1738,7 @@ const moves = [
           {
             key: 'sled-hack-squat',
             label: '哈克深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLLY0',
             desc: '',
             muscle: 'thighs',
@@ -1604,6 +1749,7 @@ const moves = [
           {
             key: 'lever-side-hip-abduction',
             label: '站姿腿外展',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLr2C',
             desc: '',
             muscle: 'thighs',
@@ -1614,6 +1760,7 @@ const moves = [
           {
             key: 'lever-side-hip-adduction',
             label: '站姿腿内收',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL2It',
             desc: '',
             muscle: 'thighs',
@@ -1624,6 +1771,7 @@ const moves = [
           {
             key: 'lever-horizontal-leg-press',
             label: '坐姿腿举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLFzm',
             desc: '',
             muscle: 'thighs',
@@ -1634,6 +1782,7 @@ const moves = [
           {
             key: 'hip-abduction-machine',
             label: '腿外展',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLAyN',
             desc: '',
             muscle: 'thighs',
@@ -1644,6 +1793,7 @@ const moves = [
           {
             key: 'hip-adduction-machine',
             label: '腿内收',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLlmR',
             desc: '',
             muscle: 'thighs',
@@ -1654,6 +1804,7 @@ const moves = [
           {
             key: 'single-leg-press',
             label: '单腿腿举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL3Yd',
             desc: '',
             muscle: 'thighs',
@@ -1664,6 +1815,7 @@ const moves = [
           {
             key: 'lever-single-leg-curl',
             label: '俯卧单腿弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLIcJ',
             desc: '',
             muscle: 'thighs',
@@ -1680,6 +1832,7 @@ const moves = [
           {
             key: 'reverse-lunge-knee',
             label: '后退弓箭步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLm2K',
             desc: '',
             muscle: 'thighs',
@@ -1690,6 +1843,7 @@ const moves = [
           {
             key: 'pistol-squat',
             label: '单脚深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLWzj',
             desc: '',
             muscle: 'thighs',
@@ -1700,6 +1854,7 @@ const moves = [
           {
             key: 'lever-standing-leg-raise',
             label: '站姿高抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLB6V',
             desc: '',
             muscle: 'thighs',
@@ -1710,6 +1865,7 @@ const moves = [
           {
             key: 'jump-squat',
             label: '深蹲跳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLuhO',
             desc: '',
             muscle: 'thighs',
@@ -1720,6 +1876,7 @@ const moves = [
           {
             key: 'high-knee-squat',
             label: '深蹲提膝',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL7UH',
             desc: '',
             muscle: 'thighs',
@@ -1730,6 +1887,7 @@ const moves = [
           {
             key: 'cossack-squat',
             label: '哥萨克蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLisC',
             desc: '',
             muscle: 'thighs',
@@ -1740,6 +1898,7 @@ const moves = [
           {
             key: 'bodyweight-walking-lunge',
             label: '自重箭步蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLY6N',
             desc: '',
             muscle: 'thighs',
@@ -1750,6 +1909,7 @@ const moves = [
           {
             key: 'bodyweight-sumo-squat',
             label: '自重相扑蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLdeR',
             desc: '',
             muscle: 'thighs',
@@ -1760,6 +1920,7 @@ const moves = [
           {
             key: 'bodyweight-squat',
             label: '自重深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL8Gp',
             desc: '',
             muscle: 'thighs',
@@ -1776,6 +1937,7 @@ const moves = [
           {
             key: 'resistance-band-lateral-walk',
             label: '弹力带侧跨步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL6h2',
             desc: '',
             muscle: 'thighs',
@@ -1786,6 +1948,7 @@ const moves = [
           {
             key: 'banded-walk',
             label: '弹力带行走',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXruv',
             desc: '',
             muscle: 'thighs',
@@ -1802,6 +1965,7 @@ const moves = [
           {
             key: 'kettlebell-swings',
             label: '壶铃摇摆',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLKSe',
             desc: '',
             muscle: 'thighs',
@@ -1812,6 +1976,7 @@ const moves = [
           {
             key: 'kettlebell-split-snatch',
             label: '壶铃抓举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLbd3',
             desc: '',
             muscle: 'thighs',
@@ -1822,6 +1987,7 @@ const moves = [
           {
             key: 'kettlebell-pistol-squats',
             label: '壶铃单腿深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLS29',
             desc: '',
             muscle: 'thighs',
@@ -1838,6 +2004,7 @@ const moves = [
           {
             key: 'trap-bar-deadlift',
             label: '六角杠铃硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OVyqs',
             desc: '',
             muscle: 'thighs',
@@ -1848,6 +2015,7 @@ const moves = [
           {
             key: 'leg-curl-on-stability-ball',
             label: '瑞士球腿弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLh9W',
             desc: '',
             muscle: 'thighs',
@@ -1858,6 +2026,7 @@ const moves = [
           {
             key: 'landmine-press',
             label: '地雷架推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLxHv',
             desc: '',
             muscle: 'thighs',
@@ -1868,6 +2037,7 @@ const moves = [
           {
             key: 'exercise-ball-wall-squat',
             label: '瑜伽球深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLQCD',
             desc: '',
             muscle: 'thighs',
@@ -1879,11 +2049,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'standing-cross-leg-hamstring-stretch',
             label: '大腿放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX28e',
             desc: '',
             muscle: 'thighs',
@@ -1894,6 +2065,7 @@ const moves = [
           {
             key: 'standing-wide-knees-adductor-stretch',
             label: '大腿放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXAA3',
             desc: '',
             muscle: 'thighs',
@@ -1904,6 +2076,7 @@ const moves = [
           {
             key: 'sitting-wide-leg-adductor-stretch',
             label: '大腿放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXZs9',
             desc: '',
             muscle: 'thighs',
@@ -1914,6 +2087,7 @@ const moves = [
           {
             key: 'seated-adductor-groin-stretch',
             label: '大腿放松/拉伸4',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXliO',
             desc: '',
             muscle: 'thighs',
@@ -1924,6 +2098,7 @@ const moves = [
           {
             key: 'kneeling-quad-stretch',
             label: '大腿放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXHVH',
             desc: '',
             muscle: 'thighs',
@@ -1934,6 +2109,7 @@ const moves = [
           {
             key: 'kneeling-hip-flexor-stretch',
             label: '大腿放松/拉伸6',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXMWD',
             desc: '',
             muscle: 'thighs',
@@ -1944,6 +2120,7 @@ const moves = [
           {
             key: 'stretch-quads',
             label: '放松/拉伸放松1',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'thighs',
@@ -1954,6 +2131,7 @@ const moves = [
           {
             key: 'stretch-it-iliotibial-band-stretch',
             label: '放松/拉伸放松2',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'thighs',
@@ -1964,6 +2142,7 @@ const moves = [
           {
             key: 'stretch-inner-thigh-adductor-stretch',
             label: '放松/拉伸放松3',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'thighs',
@@ -1974,6 +2153,7 @@ const moves = [
           {
             key: 'stretch-hamstrings',
             label: '放松/拉伸放松4',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'thighs',
@@ -1996,6 +2176,7 @@ const moves = [
           {
             key: 'barbell-ab-wheel',
             label: '杠铃健腹轮',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXxgN',
             desc: '',
             muscle: 'abs',
@@ -2006,6 +2187,7 @@ const moves = [
           {
             key: 'barbell-lateral-flexion',
             label: '杠铃体侧屈',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXKNR',
             desc: '',
             muscle: 'abs',
@@ -2022,6 +2204,7 @@ const moves = [
           {
             key: 'dumbbell-v-up',
             label: '哑铃两头起',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrWfV',
             desc: '',
             muscle: 'abs',
@@ -2032,6 +2215,7 @@ const moves = [
           {
             key: 'dumbbell-side-bend',
             label: '哑铃体侧屈',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrkQJ',
             desc: '',
             muscle: 'abs',
@@ -2048,6 +2232,7 @@ const moves = [
           {
             key: 'standing-cable-low-to-high-twist',
             label: '站立绳索拉举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXOZl',
             desc: '',
             muscle: 'abs',
@@ -2058,6 +2243,7 @@ const moves = [
           {
             key: 'standing-cable-high-to-low-twist',
             label: '站立绳索伐木',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXQxd',
             desc: '',
             muscle: 'abs',
@@ -2068,6 +2254,7 @@ const moves = [
           {
             key: 'standing-cable-crunch',
             label: '站立绳索卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXRjK',
             desc: '',
             muscle: 'abs',
@@ -2078,6 +2265,7 @@ const moves = [
           {
             key: 'kneeling-cable-crunch',
             label: '绳索卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXeL2',
             desc: '',
             muscle: 'abs',
@@ -2088,6 +2276,7 @@ const moves = [
           {
             key: 'cable-side-bend',
             label: '站姿绳索体侧屈',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXgkj',
             desc: '',
             muscle: 'abs',
@@ -2098,6 +2287,7 @@ const moves = [
           {
             key: 'cable-seated-cross-arm-twist',
             label: '坐姿绳索转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXttI',
             desc: '',
             muscle: 'abs',
@@ -2108,6 +2298,7 @@ const moves = [
           {
             key: 'lying-leg-and-hip-raise',
             label: '绳索反向卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrX1m',
             desc: '',
             muscle: 'abs',
@@ -2124,6 +2315,7 @@ const moves = [
           {
             key: 'ab-roller',
             label: '卷腹机',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXfp5',
             desc: '',
             muscle: 'abs',
@@ -2140,6 +2332,7 @@ const moves = [
           {
             key: 'toes-to-bar',
             label: '悬垂卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXm7s',
             desc: '',
             muscle: 'abs',
@@ -2150,6 +2343,7 @@ const moves = [
           {
             key: 'seated-crunch-machine',
             label: '坐姿卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX6DX',
             desc: '',
             muscle: 'abs',
@@ -2160,6 +2354,7 @@ const moves = [
           {
             key: 'crossover',
             label: '十字交叉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXkAU',
             desc: '',
             muscle: 'abs',
@@ -2170,6 +2365,7 @@ const moves = [
           {
             key: 'assisted-crunch',
             label: '辅助卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX0x0',
             desc: '',
             muscle: 'abs',
@@ -2180,6 +2376,7 @@ const moves = [
           {
             key: 'kneeling-ab-wheel',
             label: '跪姿健腹轮',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXBjC',
             desc: '',
             muscle: 'abs',
@@ -2190,6 +2387,7 @@ const moves = [
           {
             key: 'barbell-bent-over-twist',
             label: '杠铃俯身转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXhVt',
             desc: '',
             muscle: 'abs',
@@ -2200,6 +2398,7 @@ const moves = [
           {
             key: 'goat-side-twist',
             label: '山羊侧身转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXskm',
             desc: '',
             muscle: 'abs',
@@ -2210,6 +2409,7 @@ const moves = [
           {
             key: 'reverse-crunch',
             label: '反向卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXowp',
             desc: '',
             muscle: 'abs',
@@ -2220,6 +2420,7 @@ const moves = [
           {
             key: 'toe-reaches',
             label: '卷起触脚尖',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXS7T',
             desc: '',
             muscle: 'abs',
@@ -2230,6 +2431,7 @@ const moves = [
           {
             key: 'bodyweight-windmill',
             label: '站立转体触脚',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX1aV',
             desc: '',
             muscle: 'abs',
@@ -2240,6 +2442,7 @@ const moves = [
           {
             key: 'bear-crawl',
             label: '熊爬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXzwJ',
             desc: '',
             muscle: 'abs',
@@ -2250,6 +2453,7 @@ const moves = [
           {
             key: 'stability-ball-knee-tuck',
             label: '瑞士球屈膝内收',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXUOW',
             desc: '',
             muscle: 'abs',
@@ -2260,6 +2464,7 @@ const moves = [
           {
             key: 'spider-plank',
             label: '蜘蛛人平板支撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXiDv',
             desc: '',
             muscle: 'abs',
@@ -2270,6 +2475,7 @@ const moves = [
           {
             key: 'sit-ups',
             label: '仰卧起坐',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX4Ze',
             desc: '',
             muscle: 'abs',
@@ -2280,6 +2486,7 @@ const moves = [
           {
             key: 'side-plank-leg-raises',
             label: '支撑侧提膝',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX5K3',
             desc: '',
             muscle: 'abs',
@@ -2290,6 +2497,7 @@ const moves = [
           {
             key: 'side-bridge',
             label: '侧桥',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXYj9',
             desc: '',
             muscle: 'abs',
@@ -2300,6 +2508,7 @@ const moves = [
           {
             key: 'seated-side-crunches',
             label: '坐姿侧身卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX8LO',
             desc: '',
             muscle: 'abs',
@@ -2310,6 +2519,7 @@ const moves = [
           {
             key: 'seated-oblique-twist',
             label: '坐姿交替触脚',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXD0H',
             desc: '',
             muscle: 'abs',
@@ -2320,6 +2530,7 @@ const moves = [
           {
             key: 'seated-flutter-kick',
             label: '坐姿交替踢腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXEtD',
             desc: '',
             muscle: 'abs',
@@ -2330,6 +2541,7 @@ const moves = [
           {
             key: 'seated-bench-leg-pull-in',
             label: '平板坐姿收腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXTao',
             desc: '',
             muscle: 'abs',
@@ -2340,6 +2552,7 @@ const moves = [
           {
             key: 'russian-twist',
             label: '俄罗斯转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX93A',
             desc: '',
             muscle: 'abs',
@@ -2350,6 +2563,7 @@ const moves = [
           {
             key: 'reverse-plank-kicks',
             label: '反向平板踢腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXGO5',
             desc: '',
             muscle: 'abs',
@@ -2360,6 +2574,7 @@ const moves = [
           {
             key: 'reverse-crunch-1',
             label: '反向卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXNEs',
             desc: '',
             muscle: 'abs',
@@ -2370,6 +2585,7 @@ const moves = [
           {
             key: 'plank',
             label: '平板支撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXvlX',
             desc: '',
             muscle: 'abs',
@@ -2380,6 +2596,7 @@ const moves = [
           {
             key: 'plank-leg-lift',
             label: '平板支撑抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXyKU',
             desc: '',
             muscle: 'abs',
@@ -2390,6 +2607,7 @@ const moves = [
           {
             key: 'oblique-floor-crunches',
             label: '仰卧侧卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrC40',
             desc: '',
             muscle: 'abs',
@@ -2400,6 +2618,7 @@ const moves = [
           {
             key: 'mountain-climber',
             label: '登山者',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrVXC',
             desc: '',
             muscle: 'abs',
@@ -2410,6 +2629,7 @@ const moves = [
           {
             key: 'lying-scissor-kick',
             label: '仰卧交叉抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrL0t',
             desc: '',
             muscle: 'abs',
@@ -2420,6 +2640,7 @@ const moves = [
           {
             key: 'lever-seated-twist',
             label: '坐式转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrraN',
             desc: '',
             muscle: 'abs',
@@ -2430,6 +2651,7 @@ const moves = [
           {
             key: 'lever-lying-crunch',
             label: '辅助卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrF3R',
             desc: '',
             muscle: 'abs',
@@ -2440,6 +2662,7 @@ const moves = [
           {
             key: 'incline-leg-hip-raise',
             label: '下斜反向卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ornlu',
             desc: '',
             muscle: 'abs',
@@ -2450,6 +2673,7 @@ const moves = [
           {
             key: 'high-knee-squat_for-abs',
             label: '下蹲提膝转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL7UH',
             desc: '',
             muscle: 'abs',
@@ -2460,6 +2684,7 @@ const moves = [
           {
             key: 'heel-touch',
             label: '仰卧交替摸踝',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrM4d',
             desc: '',
             muscle: 'abs',
@@ -2470,6 +2695,7 @@ const moves = [
           {
             key: 'hanging-windshield-wiper',
             label: '单杠悬垂转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrwXK',
             desc: '',
             muscle: 'abs',
@@ -2480,6 +2706,7 @@ const moves = [
           {
             key: 'half-wipers',
             label: '仰卧转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Or3B2',
             desc: '',
             muscle: 'abs',
@@ -2490,6 +2717,7 @@ const moves = [
           {
             key: 'frog-crunch',
             label: '青蛙卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Orf1j',
             desc: '',
             muscle: 'abs',
@@ -2500,6 +2728,7 @@ const moves = [
           {
             key: 'exercise-ball-frog-crunch',
             label: '负重青蛙卷腹',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrmvI',
             desc: '',
             muscle: 'abs',
@@ -2510,6 +2739,7 @@ const moves = [
           {
             key: 'decline-sit-up',
             label: '下斜仰卧起做',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Or0TW',
             desc: '',
             muscle: 'abs',
@@ -2526,6 +2756,7 @@ const moves = [
           {
             key: 'kettlebell-windmill',
             label: '壶铃风车',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrZET',
             desc: '',
             muscle: 'abs',
@@ -2542,6 +2773,7 @@ const moves = [
           {
             key: 'swiss-ball-rollout',
             label: '滚瑞士球',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXuDu',
             desc: '',
             muscle: 'abs',
@@ -2552,6 +2784,7 @@ const moves = [
           {
             key: 'landmine-twist',
             label: '地雷杆架转体',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrAQp',
             desc: '',
             muscle: 'abs',
@@ -2563,11 +2796,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'bow-yoga-pose',
             label: '放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrIlv',
             desc: '',
             muscle: 'abs',
@@ -2578,6 +2812,7 @@ const moves = [
           {
             key: 'abdominal-stretch',
             label: '放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Orhbe',
             desc: '',
             muscle: 'abs',
@@ -2588,6 +2823,7 @@ const moves = [
           {
             key: 'double-leg-stretch',
             label: '放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ors53',
             desc: '',
             muscle: 'abs',
@@ -2610,6 +2846,7 @@ const moves = [
           {
             key: 'bench-press-machine-standing-calf-raise',
             label: '提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olfwm',
             desc: '',
             muscle: 'calves',
@@ -2626,6 +2863,7 @@ const moves = [
           {
             key: 'dumbbell-calf-raise',
             label: '哑铃提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlptC',
             desc: '',
             muscle: 'calves',
@@ -2642,6 +2880,7 @@ const moves = [
           {
             key: 'calf-raise-with-resistance-band',
             label: '绳索提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlwNt',
             desc: '',
             muscle: 'calves',
@@ -2658,6 +2897,7 @@ const moves = [
           {
             key: 'lever-seated-calf-raise',
             label: '坐姿提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OroJH',
             desc: '',
             muscle: 'calves',
@@ -2668,6 +2908,7 @@ const moves = [
           {
             key: 'lever-donkey-calf-raise',
             label: '驴式提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrSvD',
             desc: '',
             muscle: 'calves',
@@ -2678,6 +2919,7 @@ const moves = [
           {
             key: 'leg-press-calf-raise',
             label: '小腿倒蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlljX',
             desc: '',
             muscle: 'calves',
@@ -2688,6 +2930,7 @@ const moves = [
           {
             key: 'hack-squat-calf-raise',
             label: '哈克提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlHVU',
             desc: '',
             muscle: 'calves',
@@ -2698,6 +2941,7 @@ const moves = [
           {
             key: 'hack-machine-one-leg-calf-raise',
             label: '哈克单腿提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlMk0',
             desc: '',
             muscle: 'calves',
@@ -2714,6 +2958,7 @@ const moves = [
           {
             key: 'standing-calf-raise',
             label: '立姿小腿上提',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrKX9',
             desc: '',
             muscle: 'calves',
@@ -2730,6 +2975,7 @@ const moves = [
           {
             key: 'resistance-band-foot-external-rotation',
             label: '阻力带脚外转',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OrbBO',
             desc: '',
             muscle: 'calves',
@@ -2741,11 +2987,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'barbell-seated-calf-raise',
             label: '坐姿杠铃提踵',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olm7N',
             desc: '',
             muscle: 'calves',
@@ -2756,6 +3003,7 @@ const moves = [
           {
             key: 'standing-wall-calf-stretch',
             label: '小腿放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ol6DR',
             desc: '',
             muscle: 'calves',
@@ -2766,6 +3014,7 @@ const moves = [
           {
             key: 'standing-hamstring-stretch',
             label: '小腿放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlkZp',
             desc: '',
             muscle: 'calves',
@@ -2776,6 +3025,7 @@ const moves = [
           {
             key: 'standing-cross-leg-hamstring-stretch_for-calves',
             label: '小腿放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX28e',
             desc: '',
             muscle: 'calves',
@@ -2786,6 +3036,7 @@ const moves = [
           {
             key: 'single-heel-drop-calf-stretch',
             label: '小腿放松/拉伸4',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlBju',
             desc: '',
             muscle: 'calves',
@@ -2796,6 +3047,7 @@ const moves = [
           {
             key: 'lunging-straight-leg-calf-stretch',
             label: '小腿放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'calves',
@@ -2806,6 +3058,7 @@ const moves = [
           {
             key: 'calves-stretch-static-position',
             label: '小腿放松/拉伸6',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlhLl',
             desc: '',
             muscle: 'calves',
@@ -2816,6 +3069,7 @@ const moves = [
           {
             key: 'stretch-calves',
             label: '放松/拉伸放松',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olskd',
             desc: '',
             muscle: 'calves',
@@ -2838,6 +3092,7 @@ const moves = [
           {
             key: 'barbell-glute-bridge',
             label: '杠铃臀桥',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlxtK',
             desc: '',
             muscle: 'glutes',
@@ -2848,6 +3103,7 @@ const moves = [
           {
             key: 'barbell-hip-thrust',
             label: '杠铃臀推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlKa2',
             desc: '',
             muscle: 'glutes',
@@ -2858,6 +3114,7 @@ const moves = [
           {
             key: 'barbell-sumo-squat_for-glutes',
             label: '杠铃相扑深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLEMT',
             desc: '',
             muscle: 'glutes',
@@ -2868,6 +3125,7 @@ const moves = [
           {
             key: 'barbell-squat_for-glutes',
             label: '杠铃深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLGFd',
             desc: '',
             muscle: 'glutes',
@@ -2878,6 +3136,7 @@ const moves = [
           {
             key: 'barbell-romanian-deadlift_for-glutes',
             label: '杠铃罗马尼亚硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TKGO',
             desc: '',
             muscle: 'glutes',
@@ -2888,6 +3147,7 @@ const moves = [
           {
             key: 'barbell-deadlift_for-glutes',
             label: '杠铃硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXPgV',
             desc: '',
             muscle: 'glutes',
@@ -2904,6 +3164,7 @@ const moves = [
           {
             key: 'dumbbell-romanian-deadlift',
             label: '哑铃罗马尼亚硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ol4lA',
             desc: '',
             muscle: 'glutes',
@@ -2914,6 +3175,7 @@ const moves = [
           {
             key: 'dumbbell-rear-lunge_for-glutes',
             label: '哑铃后弓步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLtMs',
             desc: '',
             muscle: 'glutes',
@@ -2924,6 +3186,7 @@ const moves = [
           {
             key: 'dumbbell-lunge_for-glutes',
             label: '哑铃箭步蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OL1uX',
             desc: '',
             muscle: 'glutes',
@@ -2934,6 +3197,7 @@ const moves = [
           {
             key: 'dumbbell-glute-bridge',
             label: '哑铃臀桥',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ol8XX',
             desc: '',
             muscle: 'glutes',
@@ -2944,6 +3208,7 @@ const moves = [
           {
             key: 'donkey-kick-on-smith-machine',
             label: '哑铃单腿后蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlD0U',
             desc: '',
             muscle: 'glutes',
@@ -2960,6 +3225,7 @@ const moves = [
           {
             key: 'pull-through-hips',
             label: '绳索髋屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlRjv',
             desc: '',
             muscle: 'glutes',
@@ -2970,6 +3236,7 @@ const moves = [
           {
             key: 'cable-squat_for-glutes',
             label: '绳索深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLpHu',
             desc: '',
             muscle: 'glutes',
@@ -2980,6 +3247,7 @@ const moves = [
           {
             key: 'cable-kneeling-pull-through',
             label: '跪姿绳索髋屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlGQm',
             desc: '',
             muscle: 'glutes',
@@ -2996,6 +3264,7 @@ const moves = [
           {
             key: 'smith-machine-reverse-kickback',
             label: '史密斯倒蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlSOI',
             desc: '',
             muscle: 'glutes',
@@ -3012,6 +3281,7 @@ const moves = [
           {
             key: 'lever-standing-rear-kick',
             label: '器械后抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlQKW',
             desc: '',
             muscle: 'glutes',
@@ -3022,6 +3292,7 @@ const moves = [
           {
             key: 'lever-side-hip-abduction_for-glutes',
             label: '器械髋外展',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLr2C',
             desc: '',
             muscle: 'glutes',
@@ -3032,6 +3303,7 @@ const moves = [
           {
             key: 'hip-thrust-on-the-leg-extension-machine',
             label: '腿屈伸器臀推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ol1aO',
             desc: '',
             muscle: 'glutes',
@@ -3042,6 +3314,7 @@ const moves = [
           {
             key: 'hip-adduction-machine_for-glutes',
             label: '器械臀内收',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLlmR',
             desc: '',
             muscle: 'glutes',
@@ -3052,6 +3325,7 @@ const moves = [
           {
             key: 'donkey-kick-on-leg-extension-machine',
             label: '腿屈伸器后蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlE10',
             desc: '',
             muscle: 'glutes',
@@ -3068,6 +3342,7 @@ const moves = [
           {
             key: 'bodyweight-hip-thrust',
             label: '自重臀推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olowj',
             desc: '',
             muscle: 'glutes',
@@ -3078,6 +3353,7 @@ const moves = [
           {
             key: 'single-leg-bridge',
             label: '单腿臀桥',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OluEV',
             desc: '',
             muscle: 'glutes',
@@ -3088,6 +3364,7 @@ const moves = [
           {
             key: 'reverse-hyperextensions_for-glutes',
             label: '反向山羊挺身',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T5xp',
             desc: '',
             muscle: 'glutes',
@@ -3098,6 +3375,7 @@ const moves = [
           {
             key: 'hip-extension-on-bench',
             label: '平凳单腿臀屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olz3H',
             desc: '',
             muscle: 'glutes',
@@ -3108,6 +3386,7 @@ const moves = [
           {
             key: 'glute-bridge-on-bench',
             label: '平凳臀桥',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OliEo',
             desc: '',
             muscle: 'glutes',
@@ -3118,6 +3397,7 @@ const moves = [
           {
             key: 'cossack-squat_for-glutes',
             label: '哥萨克蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLisC',
             desc: '',
             muscle: 'glutes',
@@ -3128,6 +3408,7 @@ const moves = [
           {
             key: 'bodyweight-sumo-squat_for-glutes',
             label: '自重相扑深蹲',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLdeR',
             desc: '',
             muscle: 'glutes',
@@ -3138,6 +3419,7 @@ const moves = [
           {
             key: 'bodyweight-single-leg-deadlift',
             label: '自重单腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OlvlR',
             desc: '',
             muscle: 'glutes',
@@ -3148,6 +3430,7 @@ const moves = [
           {
             key: 'bench-glute-flutter-kicks',
             label: '俯卧交替抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Olybp',
             desc: '',
             muscle: 'glutes',
@@ -3164,6 +3447,7 @@ const moves = [
           {
             key: 'kettlebell-swings_for-glutes',
             label: '壶铃摇摆',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OLKSe',
             desc: '',
             muscle: 'glutes',
@@ -3174,6 +3458,7 @@ const moves = [
           {
             key: 'kettlebell-single-leg-deadlift_for-glutes',
             label: '壶铃单腿硬拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7T8Vu',
             desc: '',
             muscle: 'glutes',
@@ -3190,6 +3475,7 @@ const moves = [
           {
             key: 'banded-step-up',
             label: '弹力带上阶',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnrvK',
             desc: '',
             muscle: 'glutes',
@@ -3200,6 +3486,7 @@ const moves = [
           {
             key: 'banded-standing-glute-kickback',
             label: '弹力带后抬腿',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnFf2',
             desc: '',
             muscle: 'glutes',
@@ -3210,6 +3497,7 @@ const moves = [
           {
             key: 'banded-glute-kickbacks',
             label: '弹力带后蹬',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnAQj',
             desc: '',
             muscle: 'glutes',
@@ -3220,6 +3508,7 @@ const moves = [
           {
             key: 'band-side-lying-clam',
             label: '弹力带侧卧腿外展',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnZTI',
             desc: '',
             muscle: 'glutes',
@@ -3231,11 +3520,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'standing-cross-leg-hamstring-stretch_for-glutes',
             label: '臀部放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OX28e',
             desc: '',
             muscle: 'glutes',
@@ -3246,6 +3536,7 @@ const moves = [
           {
             key: 'kneeling-hip-flexor-stretch_for-glutes',
             label: '臀部放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXMWD',
             desc: '',
             muscle: 'glutes',
@@ -3256,6 +3547,7 @@ const moves = [
           {
             key: 'inner-thigh-side-stretch',
             label: '臀部放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnM5W',
             desc: '',
             muscle: 'glutes',
@@ -3266,6 +3558,7 @@ const moves = [
           {
             key: 'seated-adductor-groin-stretch_for-glutes',
             label: '臀部放松/拉伸4',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXliO',
             desc: '',
             muscle: 'glutes',
@@ -3276,6 +3569,7 @@ const moves = [
           {
             key: 'standing-wide-knees-adductor-stretch_for-glutes',
             label: '臀部放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OXAA3',
             desc: '',
             muscle: 'glutes',
@@ -3286,6 +3580,7 @@ const moves = [
           {
             key: 'stretch-glutes',
             label: '臀部放松/拉伸放松',
+            illustrationSuffix: '.gif',
             illustration: '',
             desc: '',
             muscle: 'glutes',
@@ -3308,6 +3603,7 @@ const moves = [
           {
             key: 'barbell-shoulder-press',
             label: '坐姿杠铃推肩',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On3Be',
             desc: '',
             muscle: 'shoulders',
@@ -3318,6 +3614,7 @@ const moves = [
           {
             key: 'smith-machine-behind-neck-press',
             label: '颈后史密斯推肩',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnwXv',
             desc: '',
             muscle: 'shoulders',
@@ -3328,6 +3625,7 @@ const moves = [
           {
             key: 'seated-behind-the-neck-press',
             label: '坐姿颈后杠铃推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ons55',
             desc: '',
             muscle: 'shoulders',
@@ -3338,6 +3636,7 @@ const moves = [
           {
             key: 'push-press-1',
             label: '推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnSy0',
             desc: '',
             muscle: 'shoulders',
@@ -3348,6 +3647,7 @@ const moves = [
           {
             key: 'barbell-upright-row',
             label: '曲杆直立划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnvcO',
             desc: '',
             muscle: 'shoulders',
@@ -3364,6 +3664,7 @@ const moves = [
           {
             key: 'arnold-press',
             label: '阿诺德哑铃推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnfJ3',
             desc: '',
             muscle: 'shoulders',
@@ -3374,6 +3675,7 @@ const moves = [
           {
             key: 'seated-rear-lateral-dumbbell-raise',
             label: '坐姿哑铃飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnhoA',
             desc: '',
             muscle: 'shoulders',
@@ -3384,6 +3686,7 @@ const moves = [
           {
             key: 'seated-dumbbell-lateral-raise',
             label: '坐姿哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnKrs',
             desc: '',
             muscle: 'shoulders',
@@ -3394,6 +3697,7 @@ const moves = [
           {
             key: 'scott-press',
             label: '斯科特哑铃推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnbIX',
             desc: '',
             muscle: 'shoulders',
@@ -3404,6 +3708,7 @@ const moves = [
           {
             key: 'leaning-single-arm-dumbbell-lateral-raise',
             label: '单臂哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnORt',
             desc: '',
             muscle: 'shoulders',
@@ -3414,6 +3719,7 @@ const moves = [
           {
             key: 'dumbbell-upright-row',
             label: '哑铃直立划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On1rT',
             desc: '',
             muscle: 'shoulders',
@@ -3424,6 +3730,7 @@ const moves = [
           {
             key: 'dumbbell-shoulder-press',
             label: '哑铃推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnJIu',
             desc: '',
             muscle: 'shoulders',
@@ -3434,6 +3741,7 @@ const moves = [
           {
             key: 'dumbbell-lying-one-arm-rear-lateral-raise',
             label: '俯卧单臂侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Onzzl',
             desc: '',
             muscle: 'shoulders',
@@ -3444,6 +3752,7 @@ const moves = [
           {
             key: 'dumbbell-lateral-raise',
             label: '哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnUyd',
             desc: '',
             muscle: 'shoulders',
@@ -3454,6 +3763,7 @@ const moves = [
           {
             key: 'dumbbell-front-raise',
             label: '哑铃前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnjmK',
             desc: '',
             muscle: 'shoulders',
@@ -3464,6 +3774,7 @@ const moves = [
           {
             key: 'dumbbell-chest-supported-lateral-raises',
             label: '上斜俯卧哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On4c2',
             desc: '',
             muscle: 'shoulders',
@@ -3474,6 +3785,7 @@ const moves = [
           {
             key: 'dumbbell-bent-arm-laterl-raise',
             label: '哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On5qj',
             desc: '',
             muscle: 'shoulders',
@@ -3484,6 +3796,7 @@ const moves = [
           {
             key: 'c605ecc96aa1ca468c6c1c664b83cc1e',
             label: '单臂哑铃直立划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnqIv',
             desc: '',
             muscle: 'shoulders',
@@ -3494,6 +3807,7 @@ const moves = [
           {
             key: 'bent-over-lateral-raise',
             label: '俯身哑铃侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Onam9',
             desc: '',
             muscle: 'shoulders',
@@ -3504,6 +3818,7 @@ const moves = [
           {
             key: 'alternating-dumbbell-front-raise',
             label: '哑铃交替前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Ony9H',
             desc: '',
             muscle: 'shoulders',
@@ -3514,6 +3829,7 @@ const moves = [
           {
             key: '59e0f783593222d74640be021e2ab7d4',
             label: '哑铃前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHPHD',
             desc: '',
             muscle: 'shoulders',
@@ -3530,6 +3846,7 @@ const moves = [
           {
             key: 'two-arm-cable-lateral-raise',
             label: '绳索交叉侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnkRH',
             desc: '',
             muscle: 'shoulders',
@@ -3540,6 +3857,7 @@ const moves = [
           {
             key: 'two-arm-cable-front-raise',
             label: '绳索前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On0TD',
             desc: '',
             muscle: 'shoulders',
@@ -3550,6 +3868,7 @@ const moves = [
           {
             key: 'leaning-cable-lateral-raise',
             label: '单臂绳索侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnQqm',
             desc: '',
             muscle: 'shoulders',
@@ -3560,6 +3879,7 @@ const moves = [
           {
             key: 'half-kneeling-high-cable-row-rope',
             label: '跪姿绳索面拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OneoR',
             desc: '',
             muscle: 'shoulders',
@@ -3570,6 +3890,7 @@ const moves = [
           {
             key: 'face-pull',
             label: '站姿面拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OngYp',
             desc: '',
             muscle: 'shoulders',
@@ -3580,6 +3901,7 @@ const moves = [
           {
             key: 'cable-upright-row',
             label: '绳索直立划船',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OndHI',
             desc: '',
             muscle: 'shoulders',
@@ -3590,6 +3912,7 @@ const moves = [
           {
             key: 'cable-rear-delt-fly',
             label: '绳索反向飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On8SV',
             desc: '',
             muscle: 'shoulders',
@@ -3600,6 +3923,7 @@ const moves = [
           {
             key: 'cable-lateral-raise',
             label: '绳索侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnDYJ',
             desc: '',
             muscle: 'shoulders',
@@ -3610,6 +3934,7 @@ const moves = [
           {
             key: 'cable-front-raise',
             label: '绳索前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnT2W',
             desc: '',
             muscle: 'shoulders',
@@ -3620,6 +3945,7 @@ const moves = [
           {
             key: 'bent-over-reverse-cable-fly',
             label: '俯身交叉绳索飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnNC3',
             desc: '',
             muscle: 'shoulders',
@@ -3636,6 +3962,7 @@ const moves = [
           {
             key: 'standing-barbell-close-grip-military-press',
             label: '杠铃颈前推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnIno',
             desc: '',
             muscle: 'shoulders',
@@ -3652,6 +3979,7 @@ const moves = [
           {
             key: 'rear-delt-machine-flys',
             label: '器械后飞鸟',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnoJU',
             desc: '',
             muscle: 'shoulders',
@@ -3662,6 +3990,7 @@ const moves = [
           {
             key: 'lever-shoulder-press',
             label: '推肩器推肩',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On7mC',
             desc: '',
             muscle: 'shoulders',
@@ -3672,6 +4001,7 @@ const moves = [
           {
             key: 'lateral-raise-machine',
             label: '器械侧平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OncnN',
             desc: '',
             muscle: 'shoulders',
@@ -3688,6 +4018,7 @@ const moves = [
           {
             key: 'bodyweight-military-press',
             label: '自重推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/On9ze',
             desc: '',
             muscle: 'shoulders',
@@ -3704,6 +4035,7 @@ const moves = [
           {
             key: 'weighted-round-arm',
             label: '杠铃片旋转前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Onmv9',
             desc: '',
             muscle: 'shoulders',
@@ -3714,6 +4046,7 @@ const moves = [
           {
             key: 'weight-plate-front-raise-1',
             label: '杠铃片前平举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OnWfO',
             desc: '',
             muscle: 'shoulders',
@@ -3730,6 +4063,7 @@ const moves = [
           {
             key: '0bac504381ee5fd4d2ad6c6653a3dbdb',
             label: '弹力带单臂推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHVSo',
             desc: '',
             muscle: 'shoulders',
@@ -3741,11 +4075,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'stretch-with-towel_for-shoulders',
             label: '肩部放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TTNK',
             desc: '',
             muscle: 'shoulders',
@@ -3756,6 +4091,7 @@ const moves = [
           {
             key: 'standing-reverse-shoulder-stretch',
             label: '肩部放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHr25',
             desc: '',
             muscle: 'shoulders',
@@ -3766,6 +4102,7 @@ const moves = [
           {
             key: 'standing-one-arm-chest-stretch_for-shoulders',
             label: '肩部放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EIRt',
             desc: '',
             muscle: 'shoulders',
@@ -3776,6 +4113,7 @@ const moves = [
           {
             key: 'back-pec-stretch_for-shoulders',
             label: '肩部放松/拉伸4',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ehqm',
             desc: '',
             muscle: 'shoulders',
@@ -3786,6 +4124,7 @@ const moves = [
           {
             key: 'across-chest-shoulder-stretch_for-shoulders',
             label: '肩部放松/拉伸5',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TvZV',
             desc: '',
             muscle: 'shoulders',
@@ -3808,6 +4147,7 @@ const moves = [
           {
             key: 'standing-barbell-triceps-extension',
             label: '站姿头后杠铃臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHSFJ',
             desc: '',
             muscle: 'triceps',
@@ -3818,6 +4158,7 @@ const moves = [
           {
             key: 'seated-ez-bar-overhead-triceps-extension',
             label: '坐姿杠铃颈后臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHGAR',
             desc: '',
             muscle: 'triceps',
@@ -3828,6 +4169,7 @@ const moves = [
           {
             key: 'close-grip-bench-press',
             label: '杠铃窄距卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMljW',
             desc: '',
             muscle: 'triceps',
@@ -3838,6 +4180,7 @@ const moves = [
           {
             key: 'barbell-triceps-extension',
             label: '仰卧杠铃臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMs0X',
             desc: '',
             muscle: 'triceps',
@@ -3854,6 +4197,7 @@ const moves = [
           {
             key: 'supine-single-arm-dumbbell-bicep-curl',
             label: '仰卧单臂哑铃臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHH9t',
             desc: '',
             muscle: 'triceps',
@@ -3864,6 +4208,7 @@ const moves = [
           {
             key: 'supine-dumbbell-tricep-extension',
             label: '仰卧哑铃肱三头肌臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OH3dR',
             desc: '',
             muscle: 'triceps',
@@ -3874,6 +4219,7 @@ const moves = [
           {
             key: 'single-dumbbell-close-grip-press_for-triceps',
             label: '窄握哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DGvK',
             desc: '',
             muscle: 'triceps',
@@ -3884,6 +4230,7 @@ const moves = [
           {
             key: 'seated-one-arm-dumbbell-triceps-extension',
             label: '坐姿单臂哑铃臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHT7m',
             desc: '',
             muscle: 'triceps',
@@ -3894,6 +4241,7 @@ const moves = [
           {
             key: 'seated-dumbbell-triceps-extension',
             label: '坐姿肱三头肌推举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHNxp',
             desc: '',
             muscle: 'triceps',
@@ -3904,6 +4252,7 @@ const moves = [
           {
             key: 'one-arm-pronated-dumbbell-triceps-extension-',
             label: '单臂正握哑铃肱三头肌屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMXw2',
             desc: '',
             muscle: 'triceps',
@@ -3914,6 +4263,7 @@ const moves = [
           {
             key: 'dumbbell-seated-front-and-back-tate-press',
             label: '坐姿哑铃颈前颈后交替臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMr7j',
             desc: '',
             muscle: 'triceps',
@@ -3924,6 +4274,7 @@ const moves = [
           {
             key: 'dumbbell-kickback',
             label: '哑铃俯身臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM2DI',
             desc: '',
             muscle: 'triceps',
@@ -3934,6 +4285,7 @@ const moves = [
           {
             key: 'dumbbell-incline-two-arm-extension',
             label: '哑铃上斜臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMAZV',
             desc: '',
             muscle: 'triceps',
@@ -3944,6 +4296,7 @@ const moves = [
           {
             key: 'close-grip-dumbbell-press_for-triceps',
             label: '窄距哑铃卧推',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EL5W',
             desc: '',
             muscle: 'triceps',
@@ -3954,6 +4307,7 @@ const moves = [
           {
             key: 'bent-over-triceps-kickback',
             label: '俯身哑铃臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMBj5',
             desc: '',
             muscle: 'triceps',
@@ -3970,6 +4324,7 @@ const moves = [
           {
             key: 'rope-arm-curl-extension',
             label: '绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHl60',
             desc: '',
             muscle: 'triceps',
@@ -3980,6 +4335,7 @@ const moves = [
           {
             key: 'single-arm-standing-bicep-curl',
             label: '单臂站姿臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHneC',
             desc: '',
             muscle: 'triceps',
@@ -3990,6 +4346,7 @@ const moves = [
           {
             key: 'prone-rope-arm-curl-extension',
             label: '俯卧绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHmFp',
             desc: '',
             muscle: 'triceps',
@@ -4000,6 +4357,7 @@ const moves = [
           {
             key: 'kneeling-rope-overhead-arm-curl-extension',
             label: '跪姿绳索过顶臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHWUu',
             desc: '',
             muscle: 'triceps',
@@ -4010,6 +4368,7 @@ const moves = [
           {
             key: 'rope-pushdown',
             label: '站姿绳索下压',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHaiT',
             desc: '',
             muscle: 'triceps',
@@ -4020,6 +4379,7 @@ const moves = [
           {
             key: 'reverse-grip-pushdown',
             label: '反握肱三头肌下压',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMCkl',
             desc: '',
             muscle: 'triceps',
@@ -4030,6 +4390,7 @@ const moves = [
           {
             key: 'rear-drive',
             label: '站姿水平臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMPgd',
             desc: '',
             muscle: 'triceps',
@@ -4040,6 +4401,7 @@ const moves = [
           {
             key: 'pushdown',
             label: '肱三头肌下压',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMVNK',
             desc: '',
             muscle: 'triceps',
@@ -4050,6 +4412,7 @@ const moves = [
           {
             key: 'cable-tricep-kickback',
             label: '绳索单臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMMke',
             desc: '',
             muscle: 'triceps',
@@ -4060,6 +4423,7 @@ const moves = [
           {
             key: 'cable-side-triceps-extension',
             label: '站姿单臂绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMpt3',
             desc: '',
             muscle: 'triceps',
@@ -4070,6 +4434,7 @@ const moves = [
           {
             key: 'cable-rope-overhead-triceps-extension',
             label: '绳索过顶肱三头肌屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMwN9',
             desc: '',
             muscle: 'triceps',
@@ -4080,6 +4445,7 @@ const moves = [
           {
             key: 'cable-one-arm-overhead-triceps-extension',
             label: '单臂绳索过顶臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMfwO',
             desc: '',
             muscle: 'triceps',
@@ -4090,6 +4456,7 @@ const moves = [
           {
             key: 'cable-lying-triceps-extensions',
             label: '仰卧绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMmOH',
             desc: '',
             muscle: 'triceps',
@@ -4100,6 +4467,7 @@ const moves = [
           {
             key: 'cable-incline-triceps-extension',
             label: '上斜绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM6DD',
             desc: '',
             muscle: 'triceps',
@@ -4110,6 +4478,7 @@ const moves = [
           {
             key: 'cable-crossover-triceps-extension',
             label: '站姿绳索交叉臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMkZo',
             desc: '',
             muscle: 'triceps',
@@ -4120,6 +4489,7 @@ const moves = [
           {
             key: 'cable-concentration-extension-on-knee',
             label: '单腿跪姿绳索臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM0KA',
             desc: '',
             muscle: 'triceps',
@@ -4136,6 +4506,7 @@ const moves = [
           {
             key: 'machine-arm-curl-extension',
             label: '器械臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHwSN',
             desc: '',
             muscle: 'triceps',
@@ -4146,6 +4517,7 @@ const moves = [
           {
             key: 'triceps-extension-machine',
             label: '器械臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHB6d',
             desc: '',
             muscle: 'triceps',
@@ -4156,6 +4528,7 @@ const moves = [
           {
             key: 'triceps-dip-machine',
             label: '器械臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHKuI',
             desc: '',
             muscle: 'triceps',
@@ -4172,6 +4545,7 @@ const moves = [
           {
             key: 'wall-push-up',
             label: '靠墙俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHpMm',
             desc: '',
             muscle: 'triceps',
@@ -4182,6 +4556,7 @@ const moves = [
           {
             key: 'triceps-dips',
             label: '双杠臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHIeK',
             desc: '',
             muscle: 'triceps',
@@ -4192,6 +4567,7 @@ const moves = [
           {
             key: 'triceps-dips-on-floors',
             label: '地面臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHhG2',
             desc: '',
             muscle: 'triceps',
@@ -4202,6 +4578,7 @@ const moves = [
           {
             key: 'triceps-dips-on-floor',
             label: '平凳臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHxMj',
             desc: '',
             muscle: 'triceps',
@@ -4212,6 +4589,7 @@ const moves = [
           {
             key: 'reverse-push-up_for-triceps',
             label: '反手俯卧撑',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Eky0',
             desc: '',
             muscle: 'triceps',
@@ -4222,6 +4600,7 @@ const moves = [
           {
             key: 'chair-dips',
             label: '板凳臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMHVv',
             desc: '',
             muscle: 'triceps',
@@ -4232,6 +4611,7 @@ const moves = [
           {
             key: 'bench-dips',
             label: '平板登臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMhLs',
             desc: '',
             muscle: 'triceps',
@@ -4248,6 +4628,7 @@ const moves = [
           {
             key: 'triceps-extension-with-resistance-bands',
             label: '弹力带下压',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OH0Pl',
             desc: '',
             muscle: 'triceps',
@@ -4258,6 +4639,7 @@ const moves = [
           {
             key: 'standing-triceps-extension',
             label: '弹力带过顶臂屈伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHb8V',
             desc: '',
             muscle: 'triceps',
@@ -4269,11 +4651,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'triceps-stretch',
             label: '肱三头肌放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMxtU',
             desc: '',
             muscle: 'triceps',
@@ -4284,6 +4667,7 @@ const moves = [
           {
             key: 'stretch-with-towel_for-triceps',
             label: '肱三头肌放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7TTNK',
             desc: '',
             muscle: 'triceps',
@@ -4294,6 +4678,7 @@ const moves = [
           {
             key: 'shoulder-stretch-behind-back_for-triceps',
             label: '肱三头肌放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EbYp',
             desc: '',
             muscle: 'triceps',
@@ -4316,6 +4701,7 @@ const moves = [
           {
             key: 'z-bar-preacher-curl',
             label: '反握杠铃牧师凳弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMSOt',
             desc: '',
             muscle: 'biceps',
@@ -4326,6 +4712,7 @@ const moves = [
           {
             key: 'seated-close-grip-concentration-curl',
             label: '坐姿杠铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMQKR',
             desc: '',
             muscle: 'biceps',
@@ -4336,6 +4723,7 @@ const moves = [
           {
             key: 'reverse-grip-ez-bar-curl',
             label: '站姿曲杆弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMg0u',
             desc: '',
             muscle: 'biceps',
@@ -4346,6 +4734,7 @@ const moves = [
           {
             key: 'prone-incline-biceps-curl',
             label: '上斜俯卧杠铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMt1l',
             desc: '',
             muscle: 'biceps',
@@ -4356,6 +4745,7 @@ const moves = [
           {
             key: 'lying-high-bench-barbell-curl',
             label: '俯卧杠铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMiEj',
             desc: '',
             muscle: 'biceps',
@@ -4372,6 +4762,7 @@ const moves = [
           {
             key: 'zottman-curl',
             label: '佐特曼弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMo3C',
             desc: '',
             muscle: 'biceps',
@@ -4382,6 +4773,7 @@ const moves = [
           {
             key: 'seated-incline-dumbbell-curl',
             label: '交替上斜哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMuEm',
             desc: '',
             muscle: 'biceps',
@@ -4392,6 +4784,7 @@ const moves = [
           {
             key: 'seated-hammer-curl',
             label: '坐姿锤式弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMOZN',
             desc: '',
             muscle: 'biceps',
@@ -4402,6 +4795,7 @@ const moves = [
           {
             key: 'one-arm-prone-dumbbell-curl',
             label: '上斜俯卧单臂哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMz3K',
             desc: '',
             muscle: 'biceps',
@@ -4412,6 +4806,7 @@ const moves = [
           {
             key: 'hammer-curl',
             label: '站姿锤式弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM8XW',
             desc: '',
             muscle: 'biceps',
@@ -4422,6 +4817,7 @@ const moves = [
           {
             key: 'dumbbell-scott-hammer-curl',
             label: '牧师凳锤式弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMD0v',
             desc: '',
             muscle: 'biceps',
@@ -4432,6 +4828,7 @@ const moves = [
           {
             key: 'dumbbell-scot-curl',
             label: '斜凳单臂哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OME1e',
             desc: '',
             muscle: 'biceps',
@@ -4442,6 +4839,7 @@ const moves = [
           {
             key: 'dumbbell-reverse-curl',
             label: '站姿反握哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMTv3',
             desc: '',
             muscle: 'biceps',
@@ -4452,6 +4850,7 @@ const moves = [
           {
             key: 'dumbbell-preacher-curl',
             label: '站姿牧师凳哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM939',
             desc: '',
             muscle: 'biceps',
@@ -4462,6 +4861,7 @@ const moves = [
           {
             key: 'dumbbell-high-curl',
             label: '高位哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMGQO',
             desc: '',
             muscle: 'biceps',
@@ -4472,6 +4872,7 @@ const moves = [
           {
             key: 'dumbbell-curl',
             label: '哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMNTH',
             desc: '',
             muscle: 'biceps',
@@ -4482,6 +4883,7 @@ const moves = [
           {
             key: 'double-arm-dumbbell-curl',
             label: '双臂哑铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMvlD',
             desc: '',
             muscle: 'biceps',
@@ -4492,6 +4894,7 @@ const moves = [
           {
             key: 'concentration-curl',
             label: '二头肌集中弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMybo',
             desc: '',
             muscle: 'biceps',
@@ -4502,6 +4905,7 @@ const moves = [
           {
             key: 'biceps-leg-concentration-curl',
             label: '二头肌抬腿集中弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpFf0',
             desc: '',
             muscle: 'biceps',
@@ -4512,6 +4916,7 @@ const moves = [
           {
             key: 'arm-blaster-hammer-curl',
             label: '二头肌训练板锤式弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpZTt',
             desc: '',
             muscle: 'biceps',
@@ -4528,6 +4933,7 @@ const moves = [
           {
             key: 'rope-bicep-curls',
             label: '站姿绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMeLT',
             desc: '',
             muscle: 'biceps',
@@ -4538,6 +4944,7 @@ const moves = [
           {
             key: 'overhead-cable-curl',
             label: '过顶绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM1ad',
             desc: '',
             muscle: 'biceps',
@@ -4548,6 +4955,7 @@ const moves = [
           {
             key: 'one-arm-cable-curl',
             label: '单臂绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMUQ2',
             desc: '',
             muscle: 'biceps',
@@ -4558,6 +4966,7 @@ const moves = [
           {
             key: 'lying-cable-curl',
             label: '仰卧绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM4lI',
             desc: '',
             muscle: 'biceps',
@@ -4568,6 +4977,7 @@ const moves = [
           {
             key: 'high-cable-single-arm-bicep-curl',
             label: '单臂绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMY4J',
             desc: '',
             muscle: 'biceps',
@@ -4578,6 +4988,7 @@ const moves = [
           {
             key: 'cable-two-arm-curl-on-incline-bench',
             label: '上斜绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpC5A',
             desc: '',
             muscle: 'biceps',
@@ -4588,6 +4999,7 @@ const moves = [
           {
             key: 'cable-preacher-curls',
             label: '单臂绳索牧师凳弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpVX5',
             desc: '',
             muscle: 'biceps',
@@ -4598,6 +5010,7 @@ const moves = [
           {
             key: 'cable-curl',
             label: '站姿绳索弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpLBs',
             desc: '',
             muscle: 'biceps',
@@ -4608,6 +5021,7 @@ const moves = [
           {
             key: 'cable-concentration-curl',
             label: '绳索二头肌集中弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpXJX',
             desc: '',
             muscle: 'biceps',
@@ -4624,6 +5038,7 @@ const moves = [
           {
             key: 'lever-preacher-curl',
             label: '器械牧师凳弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OM5bV',
             desc: '',
             muscle: 'biceps',
@@ -4634,6 +5049,7 @@ const moves = [
           {
             key: 'bicep-curl-machine',
             label: '二头弯举器',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpARC',
             desc: '',
             muscle: 'biceps',
@@ -4650,6 +5066,7 @@ const moves = [
           {
             key: 'brachialis-pull-up',
             label: '引体向上',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OprvU',
             desc: '',
             muscle: 'biceps',
@@ -4666,6 +5083,7 @@ const moves = [
           {
             key: 'seated-bicep-curl-with-resistance-band',
             label: '坐姿弹力带弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OMR4p',
             desc: '',
             muscle: 'biceps',
@@ -4677,11 +5095,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'standing-reverse-shoulder-stretch_for-biceps',
             label: '肱二头肌放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OHr25',
             desc: '',
             muscle: 'biceps',
@@ -4692,6 +5111,7 @@ const moves = [
           {
             key: 'standing-one-arm-chest-stretch_for-biceps',
             label: '肱二头肌放松/拉伸2',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7EIRt',
             desc: '',
             muscle: 'biceps',
@@ -4702,6 +5122,7 @@ const moves = [
           {
             key: 'back-pec-stretch_for-biceps',
             label: '肱二头肌放松/拉伸3',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Ehqm',
             desc: '',
             muscle: 'biceps',
@@ -4724,6 +5145,7 @@ const moves = [
           {
             key: 'weighted-wrist-curl',
             label: '坐姿杠铃片手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpHbN',
             desc: '',
             muscle: 'forearms',
@@ -4734,6 +5156,7 @@ const moves = [
           {
             key: 'behind-the-back-barbell-wrist-curl',
             label: '背面站姿反握杠铃手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpkRK',
             desc: '',
             muscle: 'forearms',
@@ -4744,6 +5167,7 @@ const moves = [
           {
             key: 'barbell-wrist-curl',
             label: '杠铃手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Op0q2',
             desc: '',
             muscle: 'forearms',
@@ -4754,6 +5178,7 @@ const moves = [
           {
             key: 'barbell-reverse-wrist-curl',
             label: '反握杠铃手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpInj',
             desc: '',
             muscle: 'forearms',
@@ -4764,6 +5189,7 @@ const moves = [
           {
             key: 'barbell-reverse-wrist-curl-over-a-bench',
             label: '反握杠铃杆手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OphoI',
             desc: '',
             muscle: 'forearms',
@@ -4774,6 +5200,7 @@ const moves = [
           {
             key: 'barbell-reverse-curl',
             label: '杠铃弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpsYV',
             desc: '',
             muscle: 'forearms',
@@ -4790,6 +5217,7 @@ const moves = [
           {
             key: 'dumbbell-wrist-curl',
             label: '哑铃手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Op3BT',
             desc: '',
             muscle: 'forearms',
@@ -4800,6 +5228,7 @@ const moves = [
           {
             key: 'dumbbell-seated-neutral-wrist-curl',
             label: '哑铃锤式手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpfJu',
             desc: '',
             muscle: 'forearms',
@@ -4810,6 +5239,7 @@ const moves = [
           {
             key: 'dumbbell-preacher-hammer-curl',
             label: '哑铃牧师凳锤式弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Opmyl',
             desc: '',
             muscle: 'forearms',
@@ -4826,6 +5256,7 @@ const moves = [
           {
             key: 'cable-one-arm-wrist-curl-on-floor',
             label: '单臂绳索手腕下压',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpWfd',
             desc: '',
             muscle: 'forearms',
@@ -4842,6 +5273,7 @@ const moves = [
           {
             key: 'reverse-wrist-curl',
             label: '坐姿手腕弯举',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpM5R',
             desc: '',
             muscle: 'forearms',
@@ -4852,6 +5284,7 @@ const moves = [
           {
             key: 'hand-gripper',
             label: '握力器',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Opwrp',
             desc: '',
             muscle: 'forearms',
@@ -4868,6 +5301,7 @@ const moves = [
           {
             key: 'wrist-roller',
             label: '手腕滚轴',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Opnnm',
             desc: '',
             muscle: 'forearms',
@@ -4879,11 +5313,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'wrist-circles-stretch',
             label: '前臂放松/拉伸',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpKrJ',
             desc: '',
             muscle: 'forearms',
@@ -4906,6 +5341,7 @@ const moves = [
           {
             key: 'seated-neck-extension',
             label: '坐姿颈部后仰',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Op7m3',
             desc: '',
             muscle: 'neck',
@@ -4922,6 +5358,7 @@ const moves = [
           {
             key: 'prone-head-lift',
             label: '俯卧抬头',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpSye',
             desc: '',
             muscle: 'neck',
@@ -4932,6 +5369,7 @@ const moves = [
           {
             key: 'neck-rotation',
             label: '颈部扭转',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpcHH',
             desc: '',
             muscle: 'neck',
@@ -4948,6 +5386,7 @@ const moves = [
           {
             key: 'prone-weighted-back-extension',
             label: '俯卧负重前仰',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpbIW',
             desc: '',
             muscle: 'neck',
@@ -4958,6 +5397,7 @@ const moves = [
           {
             key: 'lying-weighted-neck-flexion',
             label: '仰卧负重后仰',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpoJv',
             desc: '',
             muscle: 'neck',
@@ -4974,6 +5414,7 @@ const moves = [
           {
             key: 'weighted-lying-neck-flexion',
             label: '上斜仰卧项圈颈部后仰',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpOR9',
             desc: '',
             muscle: 'neck',
@@ -4984,6 +5425,7 @@ const moves = [
           {
             key: 'weighted-lying-neck-extension',
             label: '上斜俯卧项圈颈部前仰',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpQqO',
             desc: '',
             muscle: 'neck',
@@ -4994,6 +5436,7 @@ const moves = [
           {
             key: 'seated-neck-retraction',
             label: '坐姿项圈颈部后拉',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpeoD',
             desc: '',
             muscle: 'neck',
@@ -5005,11 +5448,12 @@ const moves = [
       },
       {
         key: 'stretch',
-        label: '放松/拉伸',
+        label: '拉伸放松',
         moves: [
           {
             key: 'side-neck-stretch',
             label: '颈部放松/拉伸1',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/OpgYo',
             desc: '',
             muscle: 'neck',
@@ -5020,7 +5464,8 @@ const moves = [
           {
             key: 'neck-flexion-stretch',
             label: '颈部放松/拉伸2',
-            illustration: 'https://i0.imgs.ovh/2024/03/03/Op4c0.png',
+            illustrationSuffix: '.png',
+            illustration: 'https://i0.imgs.ovh/2024/03/03/Op4c0',
             desc: '',
             muscle: 'neck',
             muscleLabel: '颈部',
@@ -5030,7 +5475,8 @@ const moves = [
           {
             key: 'neck-extension-stretching',
             label: '颈部放松/拉伸3',
-            illustration: 'https://i0.imgs.ovh/2024/03/03/Op59C.png',
+            illustrationSuffix: '.png',
+            illustration: 'https://i0.imgs.ovh/2024/03/03/Op59C',
             desc: '',
             muscle: 'neck',
             muscleLabel: '颈部',
@@ -5052,6 +5498,7 @@ const moves = [
           {
             key: 'burpees',
             label: '波比跳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/03/Op12A',
             desc: '',
             muscle: 'HIIT',
@@ -5068,6 +5515,7 @@ const moves = [
           {
             key: 'walking-on-stepmill',
             label: '登山机',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Dot9',
             desc: '',
             muscle: 'aerobic',
@@ -5084,6 +5532,7 @@ const moves = [
           {
             key: 'treadmill',
             label: '跑步',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7Db03',
             desc: '',
             muscle: 'aerobic',
@@ -5100,6 +5549,7 @@ const moves = [
           {
             key: 'elliptical-machine',
             label: '椭圆机',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DSaO',
             desc: '',
             muscle: 'aerobic',
@@ -5116,6 +5566,7 @@ const moves = [
           {
             key: 'rowing-machine',
             label: '划船机',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7D73H',
             desc: '',
             muscle: 'aerobic',
@@ -5132,6 +5583,7 @@ const moves = [
           {
             key: 'bike',
             label: '单车',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DOOD',
             desc: '',
             muscle: 'aerobic',
@@ -5148,6 +5600,7 @@ const moves = [
           {
             key: 'assault-air-runner',
             label: '无动力跑步机',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DQEo',
             desc: '',
             muscle: 'aerobic',
@@ -5164,6 +5617,7 @@ const moves = [
           {
             key: 'jump-rope',
             label: '跳绳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DclA',
             desc: '',
             muscle: 'aerobic',
@@ -5180,6 +5634,7 @@ const moves = [
           {
             key: 'battle-rope',
             label: '战绳',
+            illustrationSuffix: '.gif',
             illustration: 'https://i0.imgs.ovh/2024/03/01/7DeK5',
             desc: '',
             muscle: 'aerobic',
