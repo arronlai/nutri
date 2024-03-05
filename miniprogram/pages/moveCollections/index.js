@@ -16,8 +16,8 @@ Page({
   },
 
   toggle(event) {
-    const { index, equipment_idx } = event.currentTarget.dataset;
-    const checkbox = this.selectComponent(`.checkboxes-${equipment_idx}-${index}`);
+    const { index, equipment_idx, key } = event.currentTarget.dataset;
+    const checkbox = this.selectComponent(`.checkboxes-${key}-${equipment_idx}-${index}`);
     checkbox.toggle();
   },
 

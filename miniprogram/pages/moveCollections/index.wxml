@@ -1,7 +1,7 @@
 <view class="move-collection-page">
 	<view style="height: {{pageContainerHeight}}px;">
 		<van-tabs swipeable active="{{selectedMuscle}}">
-			<van-tab wx:for="{{ moves }}" wx:key="{{item.muscle}}" title="{{ item.muscleLabel }}">
+			<van-tab wx:for="{{ moves }}" wx:key="muscle" title="{{ item.muscleLabel }}">
 				<view class="equipment-wrapper">
 					<van-sidebar active-key="{{ selectedEquipment }}" bind:change="onChangeSidebar">
 						<van-sidebar-item
@@ -41,14 +41,15 @@
 									 clickable
 									 data-index="{{ index }}"
 									 data-equipment_idx="{{ equipmentIdx }}"
+									 data-key="{{ move.key }}"
 									 bind:click="toggle"
 									>
 										<view class="move-wrapper">
 											<view class="move-illustration">
-												<image src="{{move.illustration}}" />
+												<image src="{{move.illustration}}.th.gif" />
 											</view>
 											<view class="move-title">{{ move.label }}</view>
-											<van-checkbox catch:tap="noop" class="checkboxes-{{ equipmentIdx }}-{{ index }}" name="{{ move.key }}" />
+											<van-checkbox catch:tap="noop" class="checkboxes-{{ move.key }}-{{ equipmentIdx }}-{{ index }}" name="{{ move.key }}" />
 										</view>
 									</van-cell>
 								</van-cell-group>
