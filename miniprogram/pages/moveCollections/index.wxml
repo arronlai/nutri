@@ -51,9 +51,9 @@
 					</view>
 				</view>
 				<view class="action-btn-wrapper">
-					<van-button type="primary" disabled="{{selectedMoves.length > 0}}" bindtap="submit">确 认
+					<van-button type="primary" disabled="{{selectedMoves.length === 0}}" bindtap="submit">确认
 					</van-button>
-					<van-button type="default" bindtap="cancel">取 消</van-button>
+					<van-button type="default" bindtap="cancel">取消</van-button>
 
 				</view>
 			</van-tab>
