@@ -1,41 +1,11 @@
 // index.js
 // const app = getApp()
-
+const moves = require('../../datasets/categorized-moves.js');
+const moveKeyMap = require('../../datasets/moves-key-map.js');
 Page({
   data: {
     showUploadTip: false,
-    powerList: [
-      {
-        id: 0, // 动作id
-        title: '杠铃卧推', // 动作名称
-        pic: 'https://img.net/1.gif', // 动作图
-        showItem: false,
-        item: [
-          {
-            weight: 10,
-            unit: 'kg',
-            times: 10,
-            rest: 60,
-            completed: false,
-          },
-        ],
-      },
-      {
-        id: 1, // 动作id
-        title: '上斜哑铃卧推', // 动作名称
-        pic: 'https://img.net/1.gif', // 动作图
-        showItem: false,
-        item: [
-          {
-            weight: 10,
-            unit: 'kg',
-            times: 10,
-            rest: 60,
-            completed: false,
-          },
-        ],
-      },
-    ],
+    powerList: [],
     haveCreateCollection: false,
   },
 
@@ -94,12 +64,44 @@ Page({
     const index = e.currentTarget.dataset.index;
     const itemIdx = e.currentTarget.dataset.item_idx;
     const powerList = this.data.powerList;
-    powerList[index].item[itemIdx]= {
+    powerList[index].item[itemIdx] = {
       ...powerList[index].item[itemIdx],
       completed: !powerList[index].item[itemIdx].completed,
     };
     this.setData({
       powerList,
     });
+  },
+
+  onLoad(options) {
+    const { selectedMoves } = options; // 从moveCollections页面传递过来的选中的运动
+    if (selectedMoves) {
+      // this.setData({
+      //   selectedMoves: JSON.parse(selectedMoves),
+      // });
+      const selectedMoveKeys = JSON.parse(selectedMoves);
+      const insertingMoves = [];
+      selectedMoveKeys.forEach((key) => {
+        const { muscle, equipment } = moveKeyMap[key];
+        const move = moves
+          .find((m) => m.muscle === muscle)
+          .equipments.find((e) => e.key === equipment)
+          .moves.find((m) => m.key === key);
+        if (move) {
+          insertingMoves.push({
+            id: move.key,
+            title: move.label,
+            pic: `${move.illustration}.th${move.illustrationSuffix}`,
+            showItem: false,
+            item: [], // TODO history of this move
+          });
+        }
+      });
+
+      this.setData({
+        powerList: this.data.powerList.concat(insertingMoves),
+      });
+      // TODO 查询运动详细信息
+    }
   },
 });
