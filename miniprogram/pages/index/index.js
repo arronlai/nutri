@@ -9,6 +9,21 @@ Page({
     haveCreateCollection: false,
   },
 
+  _updatePowerList({ powerList }) {
+    try {
+      this.setData({ powerList }, () => {
+        if (powerList) {
+          wx.setStorage({
+            key: 'powerList',
+            data: powerList,
+          });
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  },
+
   onClickPowerInfo(e) {
     const index = e.currentTarget.dataset.index;
     const powerList = this.data.powerList;
@@ -28,7 +43,7 @@ Page({
     ) {
       this.onClickDatabase(powerList);
     } else {
-      this.setData({
+      this._updatePowerList({
         powerList,
       });
     }
@@ -47,7 +62,7 @@ Page({
       rest: 0,
       completed: false,
     });
-    this.setData({
+    this._updatePowerList({
       powerList,
     });
   },
@@ -56,7 +71,7 @@ Page({
     const itemIdx = e.currentTarget.dataset.item_idx;
     const powerList = this.data.powerList;
     powerList[index].item.splice(itemIdx, 1);
-    this.setData({
+    this._updatePowerList({
       powerList,
     });
   },
@@ -68,17 +83,45 @@ Page({
       ...powerList[index].item[itemIdx],
       completed: !powerList[index].item[itemIdx].completed,
     };
-    this.setData({
+    this._updatePowerList({
       powerList,
     });
   },
 
+  /**
+   * 输入重量/次数/休息时间
+   */
+  onInputWeight(e) {
+    const index = e.currentTarget.dataset.index;
+    const itemIdx = e.currentTarget.dataset.item_idx;
+    const powerList = this.data.powerList;
+    powerList[index].item[itemIdx].weight = e.detail.value;
+    this._updatePowerList({
+      powerList,
+    });
+  },
+  onInputCount(e) {
+    const index = e.currentTarget.dataset.index;
+    const itemIdx = e.currentTarget.dataset.item_idx;
+    const powerList = this.data.powerList;
+    powerList[index].item[itemIdx].times = e.detail.value;
+    this._updatePowerList({
+      powerList,
+    });
+  },
+
+  /**
+   * 展示动作详情
+   * @param {*} options
+   */
+  showMoveDetail(event) {
+    const { title, illustration } = event.currentTarget.dataset;
+    const modal = this.selectComponent('#move-detail-modal');
+    modal.open({ title, illustration });
+  },
   onLoad(options) {
     const { selectedMoves } = options; // 从moveCollections页面传递过来的选中的运动
     if (selectedMoves) {
-      // this.setData({
-      //   selectedMoves: JSON.parse(selectedMoves),
-      // });
       const selectedMoveKeys = JSON.parse(selectedMoves);
       const insertingMoves = [];
       selectedMoveKeys.forEach((key) => {
@@ -88,18 +131,23 @@ Page({
           .equipments.find((e) => e.key === equipment)
           .moves.find((m) => m.key === key);
         if (move) {
+          const { key, label, illustration, illustrationSuffix } = move;
           insertingMoves.push({
-            id: move.key,
-            title: move.label,
-            pic: `${move.illustration}.th${move.illustrationSuffix}`,
+            id: key,
+            title: label,
+            illustration,
+            illustrationSuffix,
             showItem: false,
             item: [], // TODO history of this move
           });
         }
       });
 
-      this.setData({
-        powerList: this.data.powerList.concat(insertingMoves),
+      const localPowerList = wx.getStorageSync('powerList');
+      // debugger
+
+      this._updatePowerList({
+        powerList: (localPowerList || []).concat(insertingMoves),
       });
       // TODO 查询运动详细信息
     }

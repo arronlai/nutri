@@ -13,7 +13,7 @@
 	>
 		<view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo">
 			<view class="move-illustration">
-				<image wx:if="{{power.pic}}" src="{{power.pic}}" />
+				<image wx:if="{{power.illustration}}" src="{{power.illustration}}.th{{power.illustrationSuffix}}" />
 			</view>
 			<view class="power_info_text">
 				<view class="power_info_text_title">
@@ -40,8 +40,10 @@
 						<input
 						 class="weight-input"
 						 type="number"
-						 bindinput="inputWeight"
+						 value="{{item.weight}}"
+						 bindinput="onInputWeight"
 						 data-index="{{index}}"
+						 data-item_idx="{{itemIdx}}"
 						/>
 						<!-- TODO change unit -->
 						<text class="unit">kg</text>
@@ -50,7 +52,13 @@
 						x
 					</view>
 					<view class="input-container">
-						<input type="number" bindinput="inputCount" data-index="{{index}}" />
+						<input
+						 type="number"
+						 value="{{item.times}}"
+						 bindinput="onInputCount"
+						 data-index="{{index}}"
+						 data-item_idx="{{itemIdx}}"
+						/>
 						<text class="unit">次</text>
 					</view>
 					<button
@@ -77,11 +85,17 @@
 				 data-index="{{index}}"
 				>加一组
 				</button>
-				<button bindtap="showMoveDetail" data-index="{{index}}" class="learn-btn btn">学动作</button>
+				<button
+				 bindtap="showMoveDetail"
+				 data-index="{{index}}"
+				 class="learn-btn btn"
+				 data-title="{{power.title}}"
+				 data-illustration="{{power.illustration}}{{power.illustrationSuffix}}"
+				>学动作
+				</button>
 			</view>
 		</view>
 	</view>
-	<cloud-tip-modal showUploadTipProps="{{showUploadTip}}" />
-
+	<move-detail-modal id="move-detail-modal" />
 </view>
 

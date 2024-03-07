@@ -1,0 +1,10 @@
+<van-dialog
+ use-slot
+ title="{{title}}"
+ show="{{ show }}"
+ bind:close="onClose"
+ class="move-detail-modal"
+>
+	<image class="move-illustration" src="{{illustration}}" />
+</van-dialog>
+
