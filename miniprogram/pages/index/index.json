@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "move-detail-modal": "/components/moveDetailModal/index"
+    "move-detail-modal": "/components/moveDetailModal/index",
+    "van-button": "@vant/weapp/button/index"
   }
 }

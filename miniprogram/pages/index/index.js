@@ -119,11 +119,20 @@ Page({
     const modal = this.selectComponent('#move-detail-modal');
     modal.open({ title, illustration });
   },
+
+  /**
+   * 增加一个新动作，跳转moveCollections页面
+   */
+  onClickAddMoveBtn(event) {
+    wx.navigateTo({
+      url: '/pages/moveCollections/index',
+    });
+  },
   onLoad(options) {
     const { selectedMoves } = options; // 从moveCollections页面传递过来的选中的运动
+    const insertingMoves = [];
     if (selectedMoves) {
       const selectedMoveKeys = JSON.parse(selectedMoves);
-      const insertingMoves = [];
       selectedMoveKeys.forEach((key) => {
         const { muscle, equipment } = moveKeyMap[key];
         const move = moves
@@ -142,14 +151,13 @@ Page({
           });
         }
       });
-
-      const localPowerList = wx.getStorageSync('powerList');
-      // debugger
-
-      this._updatePowerList({
-        powerList: (localPowerList || []).concat(insertingMoves),
-      });
-      // TODO 查询运动详细信息
     }
+    const localPowerList = wx.getStorageSync('powerList');
+    // debugger
+
+    this._updatePowerList({
+      powerList: (localPowerList || []).concat(insertingMoves),
+    });
+    // TODO 查询运动详细信息作为历史
   },
 });

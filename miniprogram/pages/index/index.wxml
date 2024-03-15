@@ -1,100 +1,113 @@
 <!--index.wxml-->
-<view class="container">
+<view class="power-container">
 
 	<!-- <view class="title">快速了解云开发</view>
 
   <view class="top_tip">免鉴权接口调用 免部署后台 高并发</view> -->
 	<view class="top_tip" wx:if="{{!powerList || powerList.length === 0}}">现在添加运动，马上开练~</view>
-	<view
-	 class="power"
-	 wx:key="title"
-	 wx:for="{{powerList}}"
-	 wx:for-item="power"
-	>
-		<view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo">
-			<view class="move-illustration">
-				<image wx:if="{{power.illustration}}" src="{{power.illustration}}.th{{power.illustrationSuffix}}" />
-			</view>
-			<view class="power_info_text">
-				<view class="power_info_text_title">
-					{{power.title}}
-					<view class="power_info_text_tag" wx:if="{{power.tag}}">{{power.tag}}</view>
-				</view>
-				<view class="power_info_text_tip">{{power.tip}}</view>
-			</view>
-			<image wx:if="{{!power.showItem}}" class="power_item_icon power_info_more" src="../../images/arrow.svg" />
-			<image wx:if="{{power.showItem}}" class="power_item_icon power_info_less" src="../../images/arrow.svg" />
-		</view>
-		<view wx:if="{{power.showItem}}">
-			<view wx:if="{{!power.item || power.item.length === 0}}" class="set-empty-tips">加一组，立马练~</view>
+	<view wx:else class="main-container">
+		<scroll-view class="power-list" scroll-y="scrollable">
 			<view
+			 class="power"
 			 wx:key="title"
-			 wx:for="{{power.item}}"
-			 wx:for-index="itemIdx"
-			 class="{{item.completed ? 'completed' : ''}} form-container"
+			 wx:for="{{powerList}}"
+			 wx:for-item="power"
 			>
-				<view class="line" />
-				<view class="form-item">
-					<view class="item-order">第{{itemIdx + 1}}组</view>
-					<view class="input-container">
-						<input
-						 class="weight-input"
-						 type="number"
-						 value="{{item.weight}}"
-						 bindinput="onInputWeight"
+				<view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo">
+					<view class="move-illustration">
+						<image wx:if="{{power.illustration}}" src="{{power.illustration}}.th{{power.illustrationSuffix}}" />
+					</view>
+					<view class="power_info_text">
+						<view class="power_info_text_title">
+							{{power.title}}
+							<view class="power_info_text_tag" wx:if="{{power.tag}}">{{power.tag}}</view>
+						</view>
+						<view class="power_info_text_tip">{{power.tip}}</view>
+					</view>
+					<image wx:if="{{!power.showItem}}" class="power_item_icon power_info_more" src="../../images/arrow.svg" />
+					<image wx:if="{{power.showItem}}" class="power_item_icon power_info_less" src="../../images/arrow.svg" />
+				</view>
+				<view wx:if="{{power.showItem}}">
+					<view wx:if="{{!power.item || power.item.length === 0}}" class="set-empty-tips">加一组，立马练~</view>
+					<view
+					 wx:key="title"
+					 wx:for="{{power.item}}"
+					 wx:for-index="itemIdx"
+					 class="{{item.completed ? 'completed' : ''}} form-container"
+					>
+						<view class="line" />
+						<view class="form-item">
+							<view class="item-order">第{{itemIdx + 1}}组</view>
+							<view class="input-container">
+								<input
+								 class="weight-input"
+								 type="number"
+								 value="{{item.weight}}"
+								 bindinput="onInputWeight"
+								 data-index="{{index}}"
+								 data-item_idx="{{itemIdx}}"
+								/>
+								<!-- TODO change unit -->
+								<text class="unit">kg</text>
+							</view>
+							<view>
+								x
+							</view>
+							<view class="input-container">
+								<input
+								 type="number"
+								 value="{{item.times}}"
+								 bindinput="onInputCount"
+								 data-index="{{index}}"
+								 data-item_idx="{{itemIdx}}"
+								/>
+								<text class="unit">次</text>
+							</view>
+							<button
+							 bindtap="toggleCompleteSet"
+							 data-index="{{index}}"
+							 data-item_idx="{{itemIdx}}"
+							 class="{{item.completed ? 'completed' : ''}} complete-btn btn"
+							>{{item.completed ? '重做' : '完成'}}
+							</button>
+							<button
+							 bindtap="deleteSet"
+							 data-index="{{index}}"
+							 data-item_idx="{{itemIdx}}"
+							 class="delete-btn btn"
+							>删除
+							</button>
+						</view>
+					</view>
+					<view class="action-btn-wrapper">
+						<button
+						 bindtap="addSet"
 						 data-index="{{index}}"
-						 data-item_idx="{{itemIdx}}"
-						/>
-						<!-- TODO change unit -->
-						<text class="unit">kg</text>
-					</view>
-					<view>
-						x
-					</view>
-					<view class="input-container">
-						<input
-						 type="number"
-						 value="{{item.times}}"
-						 bindinput="onInputCount"
+						 class="add-btn btn"
 						 data-index="{{index}}"
-						 data-item_idx="{{itemIdx}}"
-						/>
-						<text class="unit">次</text>
+						>加一组
+						</button>
+						<button
+						 bindtap="showMoveDetail"
+						 data-index="{{index}}"
+						 class="learn-btn btn"
+						 data-title="{{power.title}}"
+						 data-illustration="{{power.illustration}}{{power.illustrationSuffix}}"
+						>学动作
+						</button>
 					</view>
-					<button
-					 bindtap="toggleCompleteSet"
-					 data-index="{{index}}"
-					 data-item_idx="{{itemIdx}}"
-					 class="{{item.completed ? 'completed' : ''}} complete-btn btn"
-					>{{item.completed ? '重做' : '完成'}}
-					</button>
-					<button
-					 bindtap="deleteSet"
-					 data-index="{{index}}"
-					 data-item_idx="{{itemIdx}}"
-					 class="delete-btn btn"
-					>删除
-					</button>
 				</view>
 			</view>
-			<view class="action-btn-wrapper">
-				<button
-				 bindtap="addSet"
-				 data-index="{{index}}"
-				 class="add-btn btn"
-				 data-index="{{index}}"
-				>加一组
-				</button>
-				<button
-				 bindtap="showMoveDetail"
-				 data-index="{{index}}"
-				 class="learn-btn btn"
-				 data-title="{{power.title}}"
-				 data-illustration="{{power.illustration}}{{power.illustrationSuffix}}"
-				>学动作
-				</button>
-			</view>
-		</view>
+		</scroll-view>
+	</view>
+	<view class="add-move-btn-wrapper">
+		<van-button
+		 class="add-move-btn"
+		 icon="plus"
+		 type="primary"
+		 bindtap="onClickAddMoveBtn"
+		>添加运动
+		</van-button>
 	</view>
 	<move-detail-modal id="move-detail-modal" />
 </view>

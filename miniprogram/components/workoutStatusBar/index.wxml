@@ -1,0 +1,23 @@
+<view>
+	<view class="status-bar">
+		<view>
+			运动时长
+		</view>
+		<view class="status-bar__time ongoing" wx:if="{{status === 'ONGOING'}}">
+			{{duration}}
+		</view>
+		<view class="status-bar__time done">
+			{{duration}}
+		</view>
+		<van-dialog
+		 use-slot
+		 title="修改运动时长"
+		 show="{{ show }}"
+		 bind:close="onClose"
+		 class="move-detail-modal"
+		>
+			<image class="move-illustration" src="{{illustration}}" />
+		</van-dialog>
+
+	</view>
+
